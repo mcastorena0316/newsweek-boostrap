@@ -20,37 +20,36 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
     <header>
-          <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between align-items-center" style= "background-color: red;">
-              <a class="navbar-brand pb-3" href="#">
-                <img src="images/newsweek-logo.png" width= "132px" height="25px" alt="logo">
-              </a>
-              
-              <div id="navbarNavDropdown" class="navbar-collapse collapse">
-                  <ul class="navbar-nav mr-auto">
-                      <li class="nav-item navbar-text">
-                          <span>Tue, Nov 05, 2019</span>
-                      </li>
-                  </ul>
-              </div>
-              <div class= "navbar-text-and-toggle">
-                  <ul class="navbar-nav d-flex flex-row align-items-baseline">
-                      <li class="nav-item sign-in text-white mr-2">
-                          <a class="nav-link active" href="{{ url('/login') }}">SIGN IN</a>
-                      </li>
-                      <li class="nav-item">
-                          <button class="nav-button-subscribe">SUBSCRIBE</button>
-                      </li>
-                      <li>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button> 
-                      </li>
-                  </ul>
-              </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between align-items-center" style= "background-color: red;">
+        <a class="navbar-brand pb-3" href="#">
+          <img src="images/newsweek-logo.png" width= "132px" height="25px" alt="logo">
+        </a>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item navbar-text"><span>Tue, Nov 05, 2019</span></li>
+          </ul>
+        </div>
+        <div class= "navbar-text-and-toggle">
+          <ul class="navbar-nav d-flex flex-row align-items-baseline">
+            <li class="nav-item sign-in text-white mr-2">
+              <a class="nav-link active" href="{{ url('/login') }}">SIGN IN</a>
+            </li>
+            <li class="nav-item">
+              <button class="nav-button-subscribe">SUBSCRIBE</button>
+            </li>
+            <li>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> 
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-      <div class="card">
+    <!-- TOP STORY -->
+      <div class="card top-story">
+          <p class="card-text"><small class="text-muted">TOP STORIES</small></p>
           <a href="#"><img class="card-img-top" src="images/senadors.jpg" alt="Senadors"></a>
           <p class= "card-text">POLITICS</p> 
           <div class="card-body">
@@ -58,6 +57,7 @@
             <p class="card-text">Among nearly a dozen Republican and Democratic senators, the methods by which members say they're preparing for the procedures of a trial range widely..</p>         
           </div>
       </div>
+      <!-- MORE STORIES -->
       <div class="container more-stories">
         <p class="card-text"><small class="text-muted">MORE STORIES</small></p>
         <div class="row">
@@ -151,12 +151,13 @@
           </div>
         </div>
       </div>
+      <!-- CULTURE AND TRAVEL -->
       <div class= "cointainer culture-and-travel">
-          <p class= "card-text">Culture and Travel</p> 
+        <p class= "card-text">Culture and Travel</p> 
         <div class="card bg-light">
           <a href="#"><img class="card-img-top" src="images/bowie-banner.jpg" alt="David Bowie"></a>
           <div class="card-body">
-            <a href="https://www.newsweek.com/2019/11/15/literary-influences-superstar-musician-david-bowie-1468145.html"><h5 class="card-title">The Literary Influences of Superstar Musician David Bowie</h5></a>
+            <a href="#"><h5 class="card-title">The Literary Influences of Superstar Musician David Bowie</h5></a>
             <p class="card-text">Bowie was more than a multi-platinum rock and roller. He was also one of the more literate composers in the business.</p>         
             <p class="card-text"><small class="text-muted">MuSIC</small></p>
           </div>
@@ -186,341 +187,679 @@
           </div>
         </div>
       </div>
+      <!-- FEATURED STORIES -->
       <div class= "cointainer feature-stories">
-          <p class= "card-text">Feature Stories</p> 
-          <div class="card bg-light">
-              <a href="https://d.newsweek.com/en/full/1543201/moscowmitchisnext-trends-kentucky-election-bevin.webp?w=767&h=512&q=90&f=26049f639dfa0aa8d8042409dd1ae9d6"><img class="card-img-top" src="images/moscowmitchisnext-trends-kentucky-election-bevin.jpg" alt="Kentucky election"></a>
-              <div class="card-body">
-                <a href="https://d.newsweek.com/en/full/1543201/moscowmitchisnext-trends-kentucky-election-bevin.webp?w=767&h=512&q=90&f=26049f639dfa0aa8d8042409dd1ae9d6"><h5 class="card-title">Critics Taunt McConnell as Democrat Claims Victory in Kentucky Governor's Race</h5></a>
-                <p class="card-text small">Mitch McConnell's critics saw Tuesday's election as a sign of the Senate majority leader's fate in 2020, but President Donald Trump argued it was proof he would "win big."</p>      
-              </div>
-          </div>
-          <div class="card bg-light">
-            <a href="https://d.newsweek.com/en/full/1542827/iran-us-embassy-tehran-seized.webp?w=767&h=512&q=90&f=5cb8419586ca8548666b4d22fb1b71b0"><img class="card-img-top" src="images/iran-us-embassy-tehran-seized.jpg" alt="Iran-US"></a>
-            <div class="card-body">
-              <a href="https://d.newsweek.com/en/full/1542827/iran-us-embassy-tehran-seized.webp?w=767&h=512&q=90&f=5cb8419586ca8548666b4d22fb1b71b0"><h5 class="card-title">U.S. Poised to Remain the 'Great Satan' in Iran for Decades</h5></a>
-              <p class="card-text small">This week marks the 40th anniversary of the storming of the U.S. embassy in Tehran, an event that marked the start of a decades-long stand off between Washington and Iran</p>         
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="https://www.newsweek.com/trump-refuses-rule-out-government-shutdown-lawmakers-point-short-term-funding-savior-1469990"><img class="card-img-top" src="images/government-shutdown-deadline-looms.jpg" alt="Goverment Shutdown"></a>
-            <div class="card-body">
-              <a href="https://www.newsweek.com/trump-refuses-rule-out-government-shutdown-lawmakers-point-short-term-funding-savior-1469990"><h5 class="card-title">As Trump Refuses to Rule Out Gov Shutdown, Temporary Funding Seems Likely</h5></a>
-              <p class="card-text small">"My assessment is one could run into February," said Senator Richard Shelby, chairman of the Senate Appropriations Committee. "Will it? It's not up to me."</p>         
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="https://www.newsweek.com/americas-best-customer-service-2020"><img class="card-img-top" src="images/best-customer-service-2020.jpg" alt="customer-service"></a>
-            <p class= "card-text">SURVEY</p> 
-            <div class="card-body">
-              <a href="https://www.newsweek.com/americas-best-customer-service-2020"><h5 class="card-title">Best Customer Service 2020</h5></a>
-              <p class="card-text small">For the second year in a row, we worked with Statista to collect and analyze data across 160 retail categories.</p>         
-            </div>
+        <p class= "card-text">Feature Stories</p> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/moscowmitchisnext-trends-kentucky-election-bevin.jpg" alt="Kentucky election"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Critics Taunt McConnell as Democrat Claims Victory in Kentucky Governor's Race</h5></a>
+            <p class="card-text small">Mitch McConnell's critics saw Tuesday's election as a sign of the Senate majority leader's fate in 2020, but President Donald Trump argued it was proof he would "win big."</p>      
           </div>
         </div>
-        <div class= "cointainer Opinion">
-          <p class= "card-text">OPINION</p> 
-          <div class="media border p-2">
-            <a href="https://d.newsweek.com/en/full/1542536/greg-olear.webp?w=63&h=63&f=6f07b62041d4bfabfb6eb80ba52a6dd8"><img src="images/greg-olear.png" alt="Greg Olear" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-            <div class="media-body">
-              <a href="https://www.newsweek.com/mike-pence-knew-opinion-1469466"><h5>Mike Pence Knew</h5></a> 
-              <p class= "small">BY GREG OLEAR</p>
-            </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/iran-us-embassy-tehran-seized.jpg" alt="Iran-US"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">U.S. Poised to Remain the 'Great Satan' in Iran for Decades</h5></a>
+            <p class="card-text small">This week marks the 40th anniversary of the storming of the U.S. embassy in Tehran, an event that marked the start of a decades-long stand off between Washington and Iran</p>         
           </div>
-          <div class="media border p-2">
-            <a href="https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580"><img src="images/robert-reich.png" alt="Rober Reich" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-            <div class="media-body">
-              <a href="https://www.newsweek.com/twitter-facebook-are-global-bullhorns-trumps-lies-we-need-break-them-opinion-1469679"><h5>Twitter and Facebook Are Bullhorns for Lies. We Must Break Them Up</h5></a> 
-              <p class= "small">BY ROBERT REICH</p>
-            </div>
-          </div>
-          <div class="media border p-2">
-            <a href="https://d.newsweek.com/en/full/1542486/mary-anne-franks.webp?w=63&h=63&f=a36d9a84a8b4074dca6a76e7eb9943fd"><img src="images/mary-anne-franks.png" alt="Mary Anne" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-            <div class="media-body">
-              <a href="https://www.newsweek.com/congress-failed-katie-hill-opinion-1469623"><h5>Congress Failed Katie Hill</h5></a> 
-              <p class= "small">BY MARY ANNE FRANKS</p>
-            </div>
-          </div>
-          <div class="media border p-2">
-            <a href="https://d.newsweek.com/en/full/1542264/assal-rad.webp?w=63&h=63&f=273b8f7e7bb93d0dc627798cf642a920"><img src="images/assal-rad.png" alt="Assal Rad" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-            <div class="media-body">
-              <a href="https://www.newsweek.com/hostage-crisis-damaging-us-iran-relations-today-yet-too-few-understand-it-opinion-1469465"><h5>The Hostage Crisis Is Harming U.S.-Iran Relations Today. Yet Few Understand It</h5></a> 
-              <p class= "small">BY ASSAL RAD</p>
-            </div>
-          </div>
-          <div class="media border p-2">
-            <a href="https://d.newsweek.com/en/full/1543329/eric-higgs.webp?w=63&h=63&f=467c2baffa57edd2343dfd44f27895a6"><img src="images/eric-higgs.png" alt="Eric Higgs" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-            <div class="media-body">
-              <a href="https://www.newsweek.com/human-traffickers-truckers-can-slam-breaks-1470192"><h5>We Truckers Can Slam the Brakes on Human Trafficking</h5></a> 
-              <p class= "small">BY ERIC HIGGS</p>
-            </div>
-          </div>        
-          <div class="media border p-2">
-            <a href="https://d.newsweek.com/en/full/89510/marc-schulman.webp?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"><img src="images/marc-schulman.png" alt="Marc Schulman" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-            <div class="media-body">
-              <a href="https://www.newsweek.com/israel-politics-paralyzed-economy-tech-fine-1469659"><h5>Israel's Political System Is Gridlocked—but the Economy Happily Ticks Along/h5></a> 
-              <p class= "small">BY MARC SCHULMAN</p>
-            </div>
-          </div>                                                                        
         </div>
-        <!-- LATEST NEWS -->
-        <div class="container latest-news">
-          <p class="card-text"><small class="text-muted">Latest News</small></p>
-          <div class="row pb-2">
-            <div class="col-6">
-              <a href="#"><img class="img-left" width=100%  src="images/which-contestants.png" alt= "voice"/></a>
-            </div>
-            <div class="col-6"> 
-              <a href="#"><h5>Which Contestants on 'The Voice' are Headed to Live Playoffs?</h5></a>
-            </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/government-shutdown-deadline-looms.jpg" alt="Goverment Shutdown"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">As Trump Refuses to Rule Out Gov Shutdown, Temporary Funding Seems Likely</h5></a>
+            <p class="card-text small">"My assessment is one could run into February," said Senator Richard Shelby, chairman of the Senate Appropriations Committee. "Will it? It's not up to me."</p>         
           </div>
-          <div class="row pb-2">
-            <div class="col-6">
-              <a href="#"><img class="img-left" width=100%  src="images/jinping-donald-trump.jpg " alt= "jinping-donaldtrump"/></a>
-            </div>
-            <div class="col-6"> 
-              <a href="#"><h5>Trump's Trade War With China Has 'Damaged Both Economies' Says Expert</h5></a>
-            </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/best-customer-service-2020.jpg" alt="customer-service"></a>
+          <p class= "card-text">SURVEY</p> 
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Best Customer Service 2020</h5></a>
+            <p class="card-text small">For the second year in a row, we worked with Statista to collect and analyze data across 160 retail categories.</p>         
           </div>
-          <div class="row pb-2">
-            <div class="col-6">
-              <a href="#"><img class="img-left" width=100%  src="images/cartels-use-presses-impart-prescription-designs.jpg " alt= "drugs"/></a>
-            </div>
-            <div class="col-6"> 
-              <a href="#"><h5>DEA Agents Say Mexican Cartel Pills 'Exactly' Resemble Prescriptions</h5></a>
-            </div>
-          </div>     
-          <div class="row pb-2">
-            <div class="col-6">
-              <a href="#"><img class="img-left" width=100%  src="images/trump-jr-claims-know-whistleblowers-name.jpg" alt= "trump-jr"/></a>
-            </div>
-            <div class="col-6"> 
-              <a href="#"><h5>Whistleblower's Law Firm Rebukes Trump Jr for Speculating Name</h5></a>
-            </div>
+        </div>
+      </div>
+      <!-- OPINION -->
+      <div class= "cointainer Opinion">
+        <p class= "card-text">OPINION</p> 
+        <div class="media border p-2">
+          <a href="#"><img src="images/greg-olear.png" alt="Greg Olear" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+          <div class="media-body">
+            <a href="#"><h5>Mike Pence Knew</h5></a> 
+            <p class= "small">BY GREG OLEAR</p>
+          </div>
+        </div>
+        <div class="media border p-2">
+          <a href="#"><img src="images/robert-reich.png" alt="Rober Reich" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+          <div class="media-body">
+            <a href="#"><h5>Twitter and Facebook Are Bullhorns for Lies. We Must Break Them Up</h5></a> 
+            <p class= "small">BY ROBERT REICH</p>
+          </div>
+        </div>
+        <div class="media border p-2">
+          <a href="#"><img src="images/mary-anne-franks.png" alt="Mary Anne" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+          <div class="media-body">
+            <a href="#"><h5>Congress Failed Katie Hill</h5></a> 
+            <p class= "small">BY MARY ANNE FRANKS</p>
+          </div>
+        </div>
+        <div class="media border p-2">
+          <a href="#"><img src="images/assal-rad.png" alt="Assal Rad" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+          <div class="media-body">
+            <a href="#"><h5>The Hostage Crisis Is Harming U.S.-Iran Relations Today. Yet Few Understand It</h5></a> 
+            <p class= "small">BY ASSAL RAD</p>
+          </div>
+        </div>
+        <div class="media border p-2">
+          <a href="#"><img src="images/eric-higgs.png" alt="Eric Higgs" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+          <div class="media-body">
+            <a href="#"><h5>We Truckers Can Slam the Brakes on Human Trafficking</h5></a> 
+            <p class= "small">BY ERIC HIGGS</p>
+          </div>
+        </div>         
+        <div class="media border p-2">
+          <a href="#"><img src="images/marc-schulman.png" alt="Marc Schulman" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+          <div class="media-body">
+            <a href="#"><h5>Israel's Political System Is Gridlocked—but the Economy Happily Ticks Along/h5></a> 
+            <p class= "small">BY MARC SCHULMAN</p>
+          </div>
+        </div>                                                                        
+      </div>
+      <!-- LATEST NEWS -->
+      <div class="container latest-news">
+        <p class="card-text"><small class="text-muted">Latest News</small></p>
+        <div class="row pb-2">
+          <div class="col-6">
+            <a href="#"><img class="img-left" width=100%  src="images/which-contestants.png" alt= "voice"/></a>
+          </div>
+          <div class="col-6"> 
+            <a href="#"><h5>Which Contestants on 'The Voice' are Headed to Live Playoffs?</h5></a>
+          </div>
+        </div>
+        <div class="row pb-2">
+          <div class="col-6">
+            <a href="#"><img class="img-left" width=100%  src="images/jinping-donald-trump.jpg " alt= "jinping-donaldtrump"/></a>
+          </div>
+          <div class="col-6"> 
+            <a href="#"><h5>Trump's Trade War With China Has 'Damaged Both Economies' Says Expert</h5></a>
+          </div>
+        </div>
+        <div class="row pb-2">
+          <div class="col-6">
+            <a href="#"><img class="img-left" width=100%  src="images/cartels-use-presses-impart-prescription-designs.jpg " alt= "drugs"/></a>
+          </div>
+          <div class="col-6"> 
+            <a href="#"><h5>DEA Agents Say Mexican Cartel Pills 'Exactly' Resemble Prescriptions</h5></a>
+          </div>
+        </div>     
+        <div class="row pb-2">
+          <div class="col-6">
+            <a href="#"><img class="img-left" width=100%  src="images/trump-jr-claims-know-whistleblowers-name.jpg" alt= "trump-jr"/></a>
+          </div>
+          <div class="col-6"> 
+            <a href="#"><h5>Whistleblower's Law Firm Rebukes Trump Jr for Speculating Name</h5></a>
+          </div>
+        </div> 
+        <div class="row pb-2">
+          <div class="col-6">
+            <a href="#"><img class="img-left" width=100%  src="images/kellyanne-conway-never-trumpers.jpg" alt= "kellyanne-conway"/></a>
+          </div>
+          <div class="col-6"> 
+            <a href="#"><h5>Watch: Kellyanne Conway Heated Exchange With Reporter Over 'Never Trumpers'</h5></a>
+          </div>
+        </div>  
+        <div class="row pb-2">
+          <div class="col-6">
+            <a href="#"><img class="img-left" width=100%  src="images/lindsey-graham.jpg" alt= "lindsey-graham"/></a>
+          </div>
+          <div class="col-6"> 
+            <a href="#"><h5>Lindsey Graham Compares Trump Presidency to Christmas</h5></a>
+          </div>
+        </div>  
+        <div class="row pb-2">
+          <div class="col-6">
+            <a href="#"><img class="img-left" width=100%  src="images/close-camps.jpg" alt= "close-camps"/></a>
+          </div>
+          <div class="col-6"> 
+            <a href="#"><h5>San Antonio Shuts Down Bid To Open To Open Migrant Child Detention Center</h5></a>
+          </div>
+        </div> 
+      </div>     
+      <!-- SIGN UP BUTTON -->
+      <div class="container card sign-up-btn" style= "width: 258px;">
+        <div class="card-body">
+          <div class="media d-flex align-items-center">
+            <span class="icon-n"></span>
+            <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: red; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" ></a>
+            <div class="media-body">
+              <h5 class="card-title small">SIGN UP FOR OUR NEWSLETTER</h5>
+            </div> 
           </div> 
-          <div class="row pb-2">
-            <div class="col-6">
-              <a href="#"><img class="img-left" width=100%  src="images/kellyanne-conway-never-trumpers.jpg" alt= "kellyanne-conway"/></a>
-            </div>
-            <div class="col-6"> 
-              <a href="#"><h5>Watch: Kellyanne Conway Heated Exchange With Reporter Over 'Never Trumpers'</h5></a>
-            </div>
-          </div>  
+          <a href="#" class="btn btn-primary">Sign Up</a>
+          <p class="card-text">Update your preferences.</p>
+        </div>
+      </div>
+      <!-- SEE ALL FEATURES BIC COVER -->
+      <div class="card">
+        <a href="#"><img class="card-img-top" src="images/november-08-15-2019.jpg" alt="date"></a>
+        <p class= "card-text">NOVEMBER 15 ISSUES</p> 
+        <div class="card-body">
+          <a href="#"><h5 class="card-title lk-gray">See all Features</h5></a>
+        </div>
+      </div> 
+      <!-- N IN THE MAGAZINE -->
+      <div class= "container n-in the magazine">
+        <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: red; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" ></a><span class= "card-text">IN THE MAGAZINE</span> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/fe-yang-06-1143955057-banner.jpg" alt="Fe-yang"></a>
+          <div class="card-body">
+            <span class="card-text"><small class="text-muted">COVER</small></span>
+            <a href="#"><small class="text-muted">POLITICS</small></span></a>
+            <a href="#"><h5 class="card-title">Andrew Yang: Math, Jobs and the Robot Future</h5></a>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/sytia.jpg" alt="Syria"></a>
+          <div class="card-body">
+            <span class="card-text"><small class="text-muted">PERISCOPE</small></span>
+            <a href="#"><small class="text-muted">WORLD</small></span></a>
+            <a href="#"><h5 class="card-title">Tug of War: Photographs Capture Horror of Turkey's Offensive Into Syria</h5></a>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/senator-sheldon-whitehouse.jpg" alt="Senator-sheldo"></a>
+          <div class="card-body">
+            <span class="card-text"><small class="text-muted">PERISCOPE</small></span>
+            <a href="#"><small class="text-muted">POLITICS</small></span></a>
+            <a href="#"><h5 class="card-title">Sheldon Whitehouse On Impeachment, Court-Packing and "Getting to 67 Votes"</h5></a>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/bowie-banner.jpg" alt="David-bowiw"></a>
+          <div class="card-body">
+            <span class="card-text"><small class="text-muted">DOWTIME</small></span>
+            <a href="#"><small class="text-muted">CULTURE</small></span></a>
+            <a href="#"><h5 class="card-title">The Literary Influences of Superstar Musician David Bowie</h5></a>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/sculpture.jpg" alt="sculpture"></a>
+          <div class="card-body">
+            <span class="card-text"><small class="text-muted">FEATURES</small></span>
+            <a href="#"><small class="text-muted">CULTURE</small></span></a>
+            <a href="#"><h5 class="card-title">9 Larger-Than-Life Sculpture Parks Around the World</h5></a>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/mccreary.jpg" alt="MCcreary"></a>
+          <div class="card-body">
+            <span class="card-text"><small class="text-muted">DOWNTIME</small></span>
+            <a href="#"><small class="text-muted">CULTURE</small></span></a>
+            <a href="#"><h5 class="card-title">Kelly McCreary on the Writers of 'Grey's Anatomy' and Getting Out the Vote</h5></a>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/queens-speech.jpg" alt="Queen- Speech"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">IN FOCUS</small></span></a>
+            <a href="#"><h5 class="card-title">THE QUEEN’S SPEECH</h5></a>
+          </div>
+        </div>
+      </div>
+      <!-- EDITORS PICK -->
+      <div class= "container editors-pick">
+        <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: red; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" ></a><span class= "card-text">EDITOR'S PICK</span> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/donald-trump-2020-campaign-dinner-contests.jpg" alt="Donald-Trump"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">POLITICS</small></span></a>
+            <a href="#"><h5 class="card-title">Trump Campaign's Meal Contests 'Out-and-Out Fraud' if Nobody Wins: Lawyer</h5></a>
+            <p class= "small">The Trump 2020 campaign says people are winning the money-raising contests to meet the president but there is little public evidence that they are.</p>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/amazon-rainforest-air-moisture.jpg" alt="Amazon Rainforest"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">TECH & SCIENCE </small></span></a>
+            <a href="#"><h5 class="card-title">Amazon Rainforest Is Drying Out Due to Human Activities, Scientists Say</h5></a>
+            <p class= "small">The Amazon rainforest is important to the global climate because of its role in storing vast amounts of carbon dioxide.</p>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/amazon-rainforest-air-moisture.jpg" alt="Amazon Rainforest"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">TECH & SCIENCE </small></span></a>
+            <a href="#"><h5 class="card-title">Amazon Rainforest Is Drying Out Due to Human Activities, Scientists Say</h5></a>
+            <p class= "small">The Amazon rainforest is important to the global climate because of its role in storing vast amounts of carbon dioxide.</p>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/emmanuel-macron-xi-jinping-climate-change-paris.jpg" alt="Emanuel-Macron"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">NEWS</small></span></a>
+            <a href="#"><h5 class="card-title">Trump Withdrawal From Paris Accord Will Leave U.S. 'Edged Out': Macron</h5></a>
+            <p class= "small">The French president warned that America's withdrawal will not derail the initiative, and said he deplores such a move.</p>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/cannabis-marijuana-weed-drugs-stock-getty.jpg" alt="Cannabis"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">HEALTH</small></span></a>
+            <a href="#"><h5 class="card-title">Cannabis Could Ease Symptoms of Depression in PTSD Patients</h5></a>
+            <p class= "small">"We're only just beginning to understand what the therapeutic potential of cannabis may be for a variety of health conditions," an author of the study said.</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#"><img class="card-img-top" src="images/sex-relationship-love-stock-bed-getty.jpg" alt="Clitoris"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Clitoris Isn't Just for Female Pleasure. It Also Helps With Reproduction</h5></a>
+            <p class= "small">"The research could change our understanding of the female anatomy.</p>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/rodney-reed.jpg" alt="Rodney-reed"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">U.S.</small></span></a>
+            <a href="#"><h5 class="card-title">Why Celebrities Are Demanding Death Row Inmate Rodney Reed Be Released</h5></a>
+            <p class= "small">Rihanna, Gigi Hadid and Kim Kardashian are among those urging the death row inmate be freed following new evidence.</p>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/north-korea-united-nations-general-assembly.jpg" alt="North-Korea"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">WORLD</small></span></a>
+            <a href="#"><h5 class="card-title">North Korea Says Official Threatened in New York City with Photos, Alcohol</h5></a>
+            <p class= "small">A recent United Nations report detailed North Korea's claim that one of its senior officials received a mysterious package that included a threatening letter, pictures and bottles of alcohol.</p>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/elizabeth-warren.jpg" alt="elizabeth-warren"></a>
+          <div class="card-body">
+            <a href="#"><small class="text-muted">U.S.</small></span></a>
+            <a href="#"><h5 class="card-title">Democrat Strategist Blames Sexism For Warren's Poor Swing State Polling</h5></a>
+            <p class= "small">Andrew Feldman questioned whether the United States was ready to elect a female president on Rising with Krystal & Saagar yesterday.</p>
+          </div>
+        </div> 
+      </div>
+      <!-- FEATURE SLIDESHOW -->
+      <div class= "container feature-slideshow">
+        <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: red; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" ></a><span class= "card-text">FEATURED SLIDESHOW</span> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/sugar-plum-danish-starbucks.jpg" alt="Starbucks"></a>
+          <div class="card-body">
+            <a href="#">18</a>
+            <a href="#"><h5 class="card-title">What Starbucks Christmas Holiday Drinks Are Available This Year?</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/first-wives-club-pumpkin.jpg" alt="Pumpkins"></a>
+          <div class="card-body">
+            <a href="#">12</a>
+            <a href="#"><h5 class="card-title">Meet the Master Carver Who Turns Pumpkins Into Portraits</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/coldsplay.jpg" alt="Cosplay"></a>
+          <div class="card-body">
+            <a href="#">40</a>
+            <a href="#"><h5 class="card-title">Our Cosplay Favorites from NYCC 2019</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/muir-pass-great-alone.jpg" alt="Great-Alone"></a>
+          <div class="card-body">
+            <a href="#">7</a>
+            <a href="#"><h5 class="card-title">The Great Alone: Walking the Pacific Crest Trail</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/galapagos-cerro-brujo.jpg" alt="Galapagos"></a>
+          <div class="card-body">
+            <a href="#">4</a>
+            <a href="#"><h5 class="card-title">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/still-2-eop.jpg" alt="Trafficked-Animals"></a>
+          <div class="card-body">
+            <a href="#">8</a>
+            <a href="#"><h5 class="card-title">The New Documentary Trying to Save the Most Trafficked Mammals in the World</h5></a>         
+          </div>
+        </div>
+      </div>
+      <!-- U.S. -->
+      <div class= "container us">
+        <a><span class= "card-text">U.S.</span></a> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/vaping.jpg" alt="Vaping"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Youth Vaping Spiked in 2019 While Fed Plays Regulatory Catch Up: Report</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/alligator.jpg" alt="Alligator"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Decapitated Alligator Found in Florida for Second Time in a Month</h5></a>         
+          </div>
+        </div>
+        <div class="container">
           <div class="row pb-2">
             <div class="col-6">
               <a href="#"><img class="img-left" width=100%  src="images/lindsey-graham.jpg" alt= "lindsey-graham"/></a>
             </div>
             <div class="col-6"> 
-              <a href="#"><h5>Lindsey Graham Compares Trump Presidency to Christmas</h5></a>
+              <a href="#" class= "small"><h5>Lindsey Graham Compares Trump Presidency to Christmas</h5></a>
             </div>
-          </div>  
+          </div>
           <div class="row pb-2">
             <div class="col-6">
               <a href="#"><img class="img-left" width=100%  src="images/close-camps.jpg" alt= "close-camps"/></a>
             </div>
             <div class="col-6"> 
-              <a href="#"><h5>San Antonio Shuts Down Bid To Open To Open Migrant Child Detention Center</h5></a>
+              <a href="#" class= "small"><h5>San Antonio Shuts Down Bid To Open To Open Migrant Child Detention Center</h5></a>
             </div>
-          </div> 
-        </div>     
-        <div class="container card sign-up-btn" style= "width: 258px;">
-          <div class="card-body">
-            <div class="media d-flex align-items-center">
-              <span class="icon-n"></span>
-                <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: red; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" ></a>
-                <div class="media-body">
-                    <h5 class="card-title small">SIGN UP FOR OUR NEWSLETTER</h5>
-                </div> 
-              </div> 
-            <a href="#" class="btn btn-primary">Sign Up</a>
-            <p class="card-text">Update your preferences.</p>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/democratic-governorships-andy-beshear-kentucky-2019.jpg" alt= "Republicans"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Number of Republican Governors Across U.S. Continues to Drop Under Trump</h5></a>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <a href="https://d.newsweek.com/en/full/1540951/november-08-15-2019.webp?w=726&h=969&q=90&f=3decd1c71f5fea1d7dd2266e1d9d8982"><img class="card-img-top" src="images/november-08-15-2019.jpg" alt="date"></a>
-          <p class= "card-text">NOVEMBER 15 ISSUES</p> 
+      </div>
+      <!-- WORLD -->
+      <div class= "container us">
+        <a><span class= "card-text">WORLD</span></a> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/jinping-donald-trump.jpg" alt="jinping-donald-trump"></a>
           <div class="card-body">
-            <a href="https://www.newsweek.com/senators-say-theyre-preparingor-why-they-arentfor-impeachment-trial-1470002"><h5 class="card-title lk-gray">See all Features</h5></a>
+            <a href="#"><h5 class="card-title">Trump's Trade War With China Has 'Damaged Both Economies' Says Expert</h5></a>         
           </div>
-        </div> 
-
-        <!-- N IN THE MAGAZINE -->
-        <div class= "container n-in the magazine">
-            <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: red; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" ></a><span class= "card-text">IN THE MAGAZINE</span> 
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/fe-yang-06-1143955057-banner.jpg" alt="Fe-yang"></a>
-            <div class="card-body">
-              <span class="card-text"><small class="text-muted">COVER</small></span>
-              <a href="#"><small class="text-muted">POLITICS</small></span></a>
-              <a href="#"><h5 class="card-title">Andrew Yang: Math, Jobs and the Robot Future</h5></a>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/trump-trudeau.jpg" alt="trump-trudeau"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">U.S. Should Not Be Considered 'Safe Third Country' Canadian Court Hears</h5></a>         
+          </div>
+        </div>
+        <div class="container">
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/russia-supreme-court.jpg" alt= "russia-supreme-court"/></a>
             </div>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/sytia.jpg" alt="Syria"></a>
-            <div class="card-body">
-              <span class="card-text"><small class="text-muted">PERISCOPE</small></span>
-              <a href="#"><small class="text-muted">WORLD</small></span></a>
-              <a href="#"><h5 class="card-title">Tug of War: Photographs Capture Horror of Turkey's Offensive Into Syria</h5></a>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Jehovah's Witness Found Guilty of Being an 'Extremist' Leader in Russia</h5></a>
             </div>
           </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/senator-sheldon-whitehouse.jpg" alt="Senator-sheldo"></a>
-            <div class="card-body">
-              <span class="card-text"><small class="text-muted">PERISCOPE</small></span>
-              <a href="#"><small class="text-muted">POLITICS</small></span></a>
-              <a href="#"><h5 class="card-title">Sheldon Whitehouse On Impeachment, Court-Packing and "Getting to 67 Votes"</h5></a>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/turkey-drone-attack-northern-iraq-kurds.jpg" alt= "Turkey drone"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Turkey Bombs Kurdish Fighters to Iraq As It Struggles in Syria</h5></a>
             </div>
           </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/bowie-banner.jpg" alt="David-bowiw"></a>
-            <div class="card-body">
-              <span class="card-text"><small class="text-muted">DOWTIME</small></span>
-              <a href="#"><small class="text-muted">CULTURE</small></span></a>
-              <a href="#"><h5 class="card-title">The Literary Influences of Superstar Musician David Bowie
-                </h5></a>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/saudi-aramco-oil-installation.jpg" alt= "saudi-aramco-oil-installation"/></a>
             </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Western Banks Funding Saudi Aramco IPO Betraying Climate Change Promises</h5></a>
             </div>
-            <div class="card bg-light">
-              <a href="#"><img class="card-img-top" src="images/sculpture.jpg" alt="sculpture"></a>
-              <div class="card-body">
-                <span class="card-text"><small class="text-muted">FEATURES</small></span>
-                <a href="#"><small class="text-muted">CULTURE</small></span></a>
-                <a href="#"><h5 class="card-title">9 Larger-Than-Life Sculpture Parks Around the World</h5></a>
+          </div>
+        </div>
+      </div>
+      <!--BUSINESS-->
+      <div class= "container business">
+        <a><span class= "card-text">Business</span></a> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/mcdonalds-restaurant.jpg" alt="mcdonalds-restaurant"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">McDonald's CEO Steps Down After Relationship With Employee</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/spotify.jpg" alt="spotify"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Now that labels can pay to promote music on Spotify, smaller artists may</h5></a>         
+          </div>
+        </div>
+        <div class="container">
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/lawrence-summers-clinton-wealth-tax.jpg" alt= "lawrence-summers-clinton-wealth-tax"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Wealth Tax Would Have Boosted Anti-Semitism: Harvard President Emeritus</h5></a>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/us-deficit.jpg" alt= "us-deficit"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>U.S. Deficit Skyrockets 26 Percent Over 2018, Trump Tax Cuts Blamed for Gap</h5></a>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/businesswoman.jpg" alt= "businesswoman"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Female CEOs Face 'Greater Penalties' Than Men for Ethical Trangressions</h5></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--TECH & SCIENCE-->
+      <div class= "container Tech-science">
+        <a><span class= "card-text">Tech & Science</span></a> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/raleigh-island-settlement.jpg" alt="raleigh-island-settlement"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Secrets of 'Special' Ancient Native American Settlement in Florida Revealed</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/sunflowers.jpg" alt="sunflowers"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Artificial Flowers That Bend Toward Light and Harvest Solar Energy Created</h5></a>         
+          </div>
+        </div>
+        <div class="container">
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/pliosaur-plesiosaur.png" alt= "pliosaur-plesiosaur"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>33-foot-long 'Sea Monster' Found Surrounded by Ancient Crocodile Teeth</h5></a>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/mummified-cat.jpg" alt= "mummified-cat"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Ancient Egyptian Mummified Cat Was Made Up Of Body Parts From Three Felines</h5></a>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/red-deer-calf-isle-rum-scotland.jpg" alt= "red-deer-calf-isle-rum-scotland"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Deer May Be Evolving to Give Birth Earlier in Response to Climate Change</h5></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--CULTURE-->
+      <div class= "container culture">
+        <a><span class= "card-text">Culture</span></a> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/katie-morton.jpg" alt="katie-morton"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Are Chris and Katie Still Engaged After 'Bachelor In Paradise?</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/hailee-steinfield-dickinson-depicts-unapologetic-creative-freedom.png" alt="hailee-steinfield-dickinson-depicts-unapologetic-creative-freedom"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Hailee Steinfield in 'Dickinson' Depicts Unapologetic Creative Freedom</h5></a>         
+          </div>
+        </div>
+        <div class="container">
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/which-contestants-voice-are-going-live-playoffs.png" alt= "which-contestants-voice-are-going-live-playoffs"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Which Contestants on 'The Voice' are Headed to Live Playoffs?</h5></a>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/james-dean-rebel.jpg" alt= "james-dean-rebel"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>A CGI Puppet of James Dean Will Fight In The Vietnam War in Upcoming Movie</h5></a>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/end-f-ing-world-soundtrack.jpg" alt= "end-f-ing-world-soundtrack"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>'End of the F***ing World' Season 2 Soundtrack: All the Songs</h5></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--SPORTS-->
+      <div class= "container sports">
+        <a><span class= "card-text">Sports</span></a> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/wwe-shayna-baszler-nxt-bayley.jpg" alt="wwe-shayna-baszler-nxt-bayley"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Shayna Baszler Talks NXT Invasion and War Games</h5></a>         
+          </div>
+        </div>
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/clemson-tigers.jpg" alt="clemson-tigers"></a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Sportsbooks Continue to Favor Clemson Despite No. 5 CFP Ranking</h5></a>         
+          </div>
+        </div>
+        <div class="container">
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/juventus.jpg" alt= "juventus"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>Lokomotiv Moscow vs. Juventus: Serie A Giants Look to Remain Top of Group D</h5></a>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/eden-hazard-real-madrid.webp" alt= "eden-hazard-real-madrid"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5> UEFA Champions League: Real Madrid vs. Galatasaray Preview</h5></a>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col-6">
+              <a href="#"><img class="img-left" width=100%  src="images/ohio-state-football.jpg" alt= "ohio-state-football"/></a>
+            </div>
+            <div class="col-6"> 
+              <a href="#" class= "small"><h5>CFP Playoff Rankings Disrupt LSU-Alabama Game as No. 1 vs. No. 2</h5></a>
+            </div>
+          </div>
+        </div>
+      </div>   
+      <!-- SUBSCRIBE AND NEWS -->
+      <div class= "container-fluid subscriBe-news">
+        <a><span class= "card-text">Subscribe</span></a> 
+        <div class="container card sign-up-btn">
+          <div class="card-body">
+            <div class="media align-items-center">
+              <div class= "cointainer" style= "width: 260px">
+                <img src="images/november-01-2019-cover.jpg" style="width:170px;" alt="november-08-15-2019-cover" class="mr-0 mt-0" ></a>
+                <img src="images/november-08-15-2019 (1).jpg" style="width:170px;" alt="november-08-15-2019" class="mr-0 mt-0" ></a>
+              </div>
+              <div class="media-body">
+                <p class="card-text">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+                <p class="card-text">All Access + Weekly Delivery</p>
+                <p class="card-text">Choose A Membership That's Perfect for You!</p>
+                <a href="#" class="btn btn-primary">Subscribe</a>
               </div>
             </div>
-            <div class="card bg-light">
-              <a href="#"><img class="card-img-top" src="images/mccreary.jpg" alt="MCcreary"></a>
-              <div class="card-body">
-                <span class="card-text"><small class="text-muted">DOWNTIME</small></span>
-                <a href="#"><small class="text-muted">CULTURE</small></span></a>
-                <a href="#"><h5 class="card-title">Kelly McCreary on the Writers of 'Grey's Anatomy' and Getting Out the Vote</h5></a>
-            </div>
-          </div>
-          <div class="card bg-light">
-              <a href="#"><img class="card-img-top" src="images/queens-speech.jpg" alt="Queen- Speech"></a>
-              <div class="card-body">
-                <a href="#"><small class="text-muted">IN FOCUS</small></span></a>
-                <a href="#"><h5 class="card-title">THE QUEEN’S SPEECH</h5></a>
-              </div>
-            </div>
-        </div>
-
-        <!-- EDITORS PICK -->
-        <div class= "container editors-pick">
-            <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: red; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" ></a><span class= "card-text">EDITOR'S PICK</span> 
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/donald-trump-2020-campaign-dinner-contests.jpg" alt="Donald-Trump"></a>
-            <div class="card-body">
-              <a href="#"><small class="text-muted">POLITICS</small></span></a>
-              <a href="#"><h5 class="card-title">Trump Campaign's Meal Contests 'Out-and-Out Fraud' if Nobody Wins: Lawyer</h5></a>
-              <p class= "small">The Trump 2020 campaign says people are winning the money-raising contests to meet the president but there is little public evidence that they are.</p>
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/amazon-rainforest-air-moisture.jpg" alt="Amazon Rainforest"></a>
-            <div class="card-body">
-              <a href="#"><small class="text-muted">TECH & SCIENCE </small></span></a>
-              <a href="#"><h5 class="card-title">Amazon Rainforest Is Drying Out Due to Human Activities, Scientists Say</h5></a>
-              <p class= "small">The Amazon rainforest is important to the global climate because of its role in storing vast amounts of carbon dioxide.</p>
-            </div>
-                    <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/amazon-rainforest-air-moisture.jpg" alt="Amazon Rainforest"></a>
-            <div class="card-body">
-              <a href="#"><small class="text-muted">TECH & SCIENCE </small></span></a>
-              <a href="#"><h5 class="card-title">Amazon Rainforest Is Drying Out Due to Human Activities, Scientists Say</h5></a>
-              <p class= "small">The Amazon rainforest is important to the global climate because of its role in storing vast amounts of carbon dioxide.</p>
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/emmanuel-macron-xi-jinping-climate-change-paris.jpg" alt="Emanuel-Macron"></a>
-            <div class="card-body">
-              <a href="#"><small class="text-muted">NEWS</small></span></a>
-              <a href="#"><h5 class="card-title">Trump Withdrawal From Paris Accord Will Leave U.S. 'Edged Out': Macron</h5></a>
-              <p class= "small">The French president warned that America's withdrawal will not derail the initiative, and said he deplores such a move.</p>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/cannabis-marijuana-weed-drugs-stock-getty.jpg" alt="Cannabis"></a>
-            <div class="card-body">
-              <a href="#"><small class="text-muted">HEALTH</small></span></a>
-              <a href="#"><h5 class="card-title">Cannabis Could Ease Symptoms of Depression in PTSD Patients</h5></a>
-              <p class= "small">"We're only just beginning to understand what the therapeutic potential of cannabis may be for a variety of health conditions," an author of the study said.</p>
-          </div>
-          <div class="card">
-            <a href="#"><img class="card-img-top" src="images/sex-relationship-love-stock-bed-getty.jpg" alt="Clitoris"></a>
-            <div class="card-body">
-              <a href="#"><h5 class="card-title">Clitoris Isn't Just for Female Pleasure. It Also Helps With Reproduction</h5></a>
-              <p class= "small">"The research could change our understanding of the female anatomy.</p>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/rodney-reed.jpg" alt="Rodney-reed"></a>
-            <div class="card-body">
-              <a href="#"><small class="text-muted">U.S.</small></span></a>
-              <a href="#"><h5 class="card-title">Why Celebrities Are Demanding Death Row Inmate Rodney Reed Be Released</h5></a>
-              <p class= "small">Rihanna, Gigi Hadid and Kim Kardashian are among those urging the death row inmate be freed following new evidence.</p>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/north-korea-united-nations-general-assembly.jpg" alt="North-Korea"></a>
-            <div class="card-body">
-              <a href="#"><small class="text-muted">WORLD</small></span></a>
-              <a href="#"><h5 class="card-title">North Korea Says Official Threatened in New York City with Photos, Alcohol</h5></a>
-              <p class= "small">A recent United Nations report detailed North Korea's claim that one of its senior officials received a mysterious package that included a threatening letter, pictures and bottles of alcohol.</p>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/elizabeth-warren.jpg" alt="elizabeth-warren"></a>
-            <div class="card-body">
-              <a href="#"><small class="text-muted">U.S.</small></span></a>
-              <a href="#"><h5 class="card-title">Democrat Strategist Blames Sexism For Warren's Poor Swing State Polling</h5></a>
-              <p class= "small">Andrew Feldman questioned whether the United States was ready to elect a female president on Rising with Krystal & Saagar yesterday.</p>
           </div>
         </div>
-        <!-- FEATURE SLIDESHOW -->
-        <div class= "container feature-slideshow">
-            <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: red; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" ></a><span class= "card-text">FEATURED SLIDESHOW</span> 
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/sugar-plum-danish-starbucks.jpg" alt="Starbucks"></a>
-            <div class="card-body">
-              <a href="#">18</a>
-              <a href="#"><h5 class="card-title">What Starbucks Christmas Holiday Drinks Are Available This Year?</h5></a>         
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/first-wives-club-pumpkin.jpg" alt="Pumpkins"></a>
-            <div class="card-body">
-              <a href="#">12</a>
-              <a href="#"><h5 class="card-title">Meet the Master Carver Who Turns Pumpkins Into Portraits</h5></a>         
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/coldsplay.jpg" alt="Cosplay"></a>
-            <div class="card-body">
-              <a href="#">40</a>
-              <a href="#"><h5 class="card-title">Our Cosplay Favorites from NYCC 2019</h5></a>         
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/muir-pass-great-alone.jpg" alt="Great-Alone"></a>
-            <div class="card-body">
-              <a href="#">7</a>
-              <a href="#"><h5 class="card-title">The Great Alone: Walking the Pacific Crest Trail</h5></a>         
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/galapagos-cerro-brujo.jpg" alt="Galapagos"></a>
-            <div class="card-body">
-              <a href="#">4</a>
-              <a href="#"><h5 class="card-title">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else</h5></a>         
-            </div>
-          </div>
-          <div class="card bg-light">
-            <a href="#"><img class="card-img-top" src="images/still-2-eop.jpg" alt="Trafficked-Animals"></a>
-            <div class="card-body">
-              <a href="#">8</a>
-              <a href="#"><h5 class="card-title">The New Documentary Trying to Save the Most Trafficked Mammals in the World</h5></a>         
-            </div>
+        <a><span class= "card-text">NEWSLETTER</span></a> 
+        <div class="card bg-light">
+          <a href="#"><img class="card-img-top" src="images/starting5-homepage.png" alt="wwe-shayna-baszler-nxt-bayley"></a>
+          <div class="card-body">
+            <h5 class="card-title">The Starting5</h5></a>      
+            <p class="card-text">Take back your inbox. Sign up for our newsletter and start making sense of the world around you</p>
+            <a href="#" class="btn btn-primary">Sign up ></a>   
           </div>
         </div>
+      </div>
     </main>
-    <footer></footer>
-
+    <!-- FOOTER -->
+    <footer>
+      <div class= "footer-top">
+        <div class= "row">
+          <div class="col-md-9 logo-footer">
+            <img src="images/newsweek-logo-red.png" style="width:236px;" alt="logo-red">
+            <span>© 2019 NEWSWEEK</span>
+          </div>
+          <div class= "col-md-3 ">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-tumblr"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bootom">
+        <div class= "row justify-content-between">
+          <div class= "col-md-7 footer-bottom-left">
+            <ul class= "menu row">
+              <li>About Us</li>
+              <li>Corrections</li>
+              <li>Contact Us</li>
+              <li>Editorial Guidelines</li>
+              <li>Advertise</li>
+              <li>Copyright</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Sale</li>
+              <li> Acieve</li>
+              <li>Announcements</li>
+              <li>Consent preferences</li>
+            </ul>
+          </div>
+          <div class= "col-md-4 footer-bottom-right">
+              <div class= "row justify-content-between">
+                <p class= "col-4 text-right">Editions</p>
+                <ul class= "menu col-8row justify-content-end">
+                  <li>U.S. Edition</li>
+                  <li>日本</li>
+                  <li>한국</li>
+                  <li>Pakistan</li>
+                  <li>Polska</li>
+                  <li>România</li>
+                </ul>
+              </div>
+          </div>
+        </div>    
+      </div>
+    </footer>
   </body>
 </html>
