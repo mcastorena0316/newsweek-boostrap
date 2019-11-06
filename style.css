@@ -1,0 +1,27 @@
+.nav-container {
+  width: 100%;
+}
+
+.navbar {
+  max-height: 60px;
+}
+
+.sign-in {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+.nav-button-subscribe {
+  background-color: white;
+  color: red;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  height: 26px;
+}
+
+.navbar-toggler-icon {
+  font-weight: 700;
+}
+
