@@ -91,6 +91,12 @@ header {
   bottom: 0px;
   left: 0px;
   z-index: 1;
+  font-weight: bold; 
+  font-size: 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  text-decoration: none;
+
 }
 
 .category {
@@ -99,7 +105,6 @@ header {
   font-family: 'Roboto Condensed', sans-serif;
   color: #f72210;
   text-decoration: none;
-
 }
 
 .title-article h5 {
@@ -123,7 +128,7 @@ header {
   font-family: Arial,Helvetica,sans-serif;
   max-width: 100%;
   position: relative;
-  font-size: 15px
+  font-size: 13px
 }
 
 /* MORE STORIES */
@@ -251,7 +256,8 @@ header {
 .image-text-small a h5{
   color: #000;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 17px;
+  font-family: "Roboto Condensed",sans-serif;
 }
 
 .image-text-small a:hover {
@@ -291,6 +297,13 @@ header {
     border: none;
     width: 100px;
 }
+
+.btn-sign-up:hover {
+  background-color: #999;
+  text-decoration: none;
+  color: white;
+}
+
 
 .btn-sign-up i {
   font-size: 15px;
@@ -342,7 +355,58 @@ header {
 
 }
 
-/* 
+/* N IN THE MAGAZINE */
+.logo-and-title {
+  text-align: center;
+}
+
+.logo-and-title span {
+  font-weight: bold ;
+  font-size: 19px;
+  font-family: "Roboto Condensed",sans-serif;
+
+}
+
+.text-and-link span,
+.text-and-link a small {
+  
+  font-weight: bold ;
+  font-size: 16px;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.text-and-link span,
+.in-focus {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+}
+
+
+.text-and-link a small {
+  color: #f72210;
+}
+
+.text-magazine {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  max-width: 100%;
+
+}
+
+.in-focus {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+}
+/*
 .top-story {
   position: relative;
     width: 100%;
