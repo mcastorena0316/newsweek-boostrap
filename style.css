@@ -592,6 +592,39 @@ font-weight: bold;
   background: url(images/starting5-homepage.png) center center / cover no-repeat;
 }
 
+.newsletter-text {
+  border: 1px solid rgb(235, 235, 235);
+}
+
+/* FOOTER  */
+.footer-top {
+  border-top: 2px solid #f4f5f6;
+  background-color: white;
+  border-bottom: 2px solid #f4f5f6;
+}
+
+.logo-copyright p {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+
+.icons-footer li {
+  list-style: none;
+  font-size: 26px;
+  margin: 0 5px;
+}
+
+.icons-footer li a {
+  color: #666;
+}
+
+.footer-sections {
+  list-style: none;
+}
 
 /* 
 .top-story {
