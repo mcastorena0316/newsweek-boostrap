@@ -23,199 +23,189 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
   <!-- NAVBAR -->
-  <header>
-      <div class= "header-top fixed-top nav-top pt-1 pb-1"  style="background-color: rgb(247, 34, 16);">
-        <div class= "d-flex justify-content-end nav-date-login text-white align-items-center">
-            <div class= "p-2 nav-date"><span class="sign-in text-white">Tue, Nov 05, 2019</span></div>
-            <div class= "p-s d-flex align-items-center nav-sub-singin">
-              <a class="nav-link active text-white" href="{{ url('/login') }}">SIGN IN</a>
-              <button class="nav-button-subscribe mr-3 pt-1">SUBSCRIBE   ></button>
-              <i class="mr-3 ml-3 fa fa-bars"></i>
-            </div>
+    <header>
+        <div class= "header-top fixed-top nav-top pt-1 pb-1"  style="background-color: rgb(247, 34, 16);">
+          <div class= "d-flex justify-content-end nav-date-login text-white align-items-center">
+              <div class= "p-2 nav-date"><span class="sign-in text-white">Tue, Nov 05, 2019</span></div>
+              <div class= "p-s d-flex align-items-center nav-sub-singin">
+                <a class="nav-link active text-white" href="{{ url('/login') }}">SIGN IN</a>
+                <button class="nav-button-subscribe mr-3 pt-1">SUBSCRIBE   ></button>
+                <i class="mr-3 ml-3 fa fa-bars"></i>
+              </div>
+          </div>
+          <div class="nav-logo">
+              <img src="images/newsweek-logo.png" width= "100%" height="20px" alt="logo">
+          </div>
         </div>
-        <div class="nav-logo">
-            <img src="images/newsweek-logo.png" width= "100%" height="20px" alt="logo">
-        </div>
-      </div>
-      <nav class= "navbar header-bottom" style= "display: none">
-        <div class= "flex-md">
-          <ul class= "page-nav">
-            <li><a>U.S.</a></li>
-            <li><a>World</a></li>
-            <li><a>Bisiness</a></li>
-            <li><a>Tech & Science</a></li>
-            <li><a>Culture</a></li>
-            <li><a>Sports</a></li>
-            <li><a>Health</a></li>
-            <li><a>Opinion</a></li>
-            <li><a>Ndelible</a></li>
-            <li><a id="search">Search</a><i class="fas fa-search"></i></li>
-          </ul>
-        </div>
-      </nav>
+        <nav class= "navbar header-bottom" style= "display: none">
+          <div class= "flex-md">
+            <ul class= "page-nav">
+              <li><a>U.S.</a></li>
+              <li><a>World</a></li>
+              <li><a>Bisiness</a></li>
+              <li><a>Tech & Science</a></li>
+              <li><a>Culture</a></li>
+              <li><a>Sports</a></li>
+              <li><a>Health</a></li>
+              <li><a>Opinion</a></li>
+              <li><a>Ndelible</a></li>
+              <li><a id="search">Search</a><i class="fas fa-search"></i></li>
+            </ul>
+          </div>
+        </nav>
     </header>
     <main>
-    <!-- TOP STORY -->
-    <div class= "main-content">
-      <div class="row">
-        <div class=" col-md-8 col-lg-5 order-1 order-md2 top-story">
-          <div class= "article-section">
-            <div class= "top-stories-title  gray-titles">TOP STORY</div>
-            <article>
-              <div class= "wrapping-text-image">
-                <div>
-                  <a href="#">
-                    <img class="img-top" src="images/senadors.jpg" alt="Senadors">
-                    <p class="category  mb-0">WORLD</p> 
-                  </a>
+      <div class= "first-top">
+        <div class= "main-content">
+          <div class="row">
+            <div class=" col-md-7 col-lg-5  order-md-2 ">
+            <!-- TOP STORY -->
+              <div class= "article-section">
+                <div class= "top-stories-title  gray-titles">TOP STORY</div>
+                <article>
+                  <div class= "wrapping-text-image">
+                    <div>
+                      <a href="#">
+                        <img class="img-top" src="images/senadors.jpg" alt="Senadors">
+                        <p class="category  mb-0">WORLD</p> 
+                      </a>
+                    </div>
+                  </div>
+                  <a href="#" class="title-article"><h5 class= "mt-2" >How Senators Say They're Preparing for an Impeachment Trial</h5></a>
+                  <p class="text">Among nearly a dozen Republican and Democratic senators, the methods by which members say they're preparing for the procedures of a trial range widely.</p>
+                </article>
+              </div>
+            <!-- CULTURE AND TRAVEL -->
+              <div class= "article-section">
+                <div class= "top-stories-title  gray-titles culture-title">CULTURE AND TRAVEL</div>
+                <article>
+                  <div class= "wrapping-text-image">
+                    <a href="#"><img class="card-img-top" src="images/bowie-banner.jpg" alt="David Bowie"></a>
+                  </div>
+                  <a href="#" class="small-title-article"><h5 class= "mt-2" >The Literary Influences of Superstar Musician David Bowie</h5></a>
+                  <p class="text culture-text">Bowie was more than a multi-platinum rock and roller. He was also one of the more literate composers in the business</p>
+                  <div class="tag mb-3">
+                    <a href="">Music</a>
+                  </div>
+                </article>
+                <article>
+                  <div class= "wrapping-text-image">
+                    <a href="#"><img class="card-img-top" src="images/sculpture.jpg" alt="Sculputre"></a>
+                  </div>
+                  <a href="#" class="small-title-article"><h5 class= "mt-2">9 Larger-Than-Life Sculpture Parks Around the World</h5></a>
+                  <p class="text culture-text">Across the globe, sculpture parks present imposing works (and even ideas) that are too large to be contained within four walls</p>
+                  <div class="tag mb-3">
+                    <a href="">Art</a>
+                  </div>
+                </article>
+                <article>
+                  <div class= "wrapping-text-image">
+                    <a href="#"><img class="card-img-top" src="images/fleamarket.jpg" alt="Flea Market"></a>
+                  </div>
+                  <a href="#" class="small-title-article"><h5 class= "mt-2">The World's Best Flea Markets</h5></a>
+                  <p class="text culture-text">These flea markets are internationally renowned, not just because of their size, but because of the varied goods on sale—priceless art treasures, vintage clothing, jewelry and first-edition books.</p>
+                  <div class="tag mb-3">
+                    <a href="">Travel</a>
+                  </div>
+                </article>
+                <article>
+                  <div class= "wrapping-text-image">
+                    <a href="#"><img class="card-img-top" src="images/saba.jpg" alt="Saba" alt="Flea Market"></a>
+                  </div>
+                  <a href="#" class="small-title-article"><h5 class= "mt-2">Saba: The Greatest Little Island You Never Heard Of</h5></a>
+                  <p class="text culture-text">Islanders call Saba "The Unspoiled Queen of the Caribbean" for its pristine landscapes and striking biodiversity as well as the absence of crowds, chain stores, and cruise ship throngs</p>
+                  <div class="tag mb-3">
+                    <a href="">Travel</a>
+                  </div>
+                </article>
+              </div>
+            <!--MORE STORIES -->
+              <div class="article-section">
+                <div class= "latest-news-title gray-titles mb-1">MORE STORIES</div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/mike-pence.jpg"/></a>
+                  </div>
+                  <a href="#"><h5>Democrats Take Control of Mike Pence's Hometown for First Time in 38 Years</h5></a>
+                  <p class= "text">Democrats in Indiana now have the majority of seats in the Columbus City Council.</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/rand-paul.jpg"/></a>
+                  </div>
+                  <a href="#"><h5>Former Ethics Chief Criticizes Rand Paul Over Threat to Out Whistleblower </h5></a>
+                  <p class= "text">Walter Shaub, an ex-director of the Office for Government Ethics, said the Kentucky senator would be committing "one of the most shameful breaches a legislator could commit.</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/metallica.jpg"/></a>
+                  </div>
+                  <a href="#"><h5>Metallica Donate $100K to California Wildfires Relief</h5></a>
+                  <p class= "text">The metal group will be raising money for the wildfire relief effort for third year in a row</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/juli-briskman.jpg"/></a>
+                  </div>
+                  <a href="#"><h5>Cyclist Who Lost Her Job for Flipping Bird at Trump Wins Election </h5></a>
+                  <p class= "text">The image of Juli Briskman, 50, making the gesture to the Trump convoy in 2017 went viral.</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/us-president-barack-obama-samantha-power.jpg"/></a>
+                  </div>
+                  <a href="#"><h5>Obama Was 'Tormented' Over Syria, Former Ambassador Recalls </h5></a>
+                  <p class= "text">The former ambassador to the United Nations has written a book about her time in the White House and said she believes the former president would still have decided not to intervene in Syria.</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/elizabeth-warren.jpg"></a>
+                  </div>
+                  <a href="#"><h5>Democrats Flip Both Chambers of Virginia's State Government </h5></a>
+                  <p class= "text">After 20 years of a maintained Republican majority, the House and Senate have both flipped from blue to red.</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/turkey-drone-attack-northern-iraq-kurds.jpg"></a>
+                  </div>
+                  <a href="#"><h5>FBI Director Says 'I Don't Know' if Rudy Giuliani Has Security Clearance</h5></a>
+                  <p class= "text">Senator Kamala Harris, a member of the Senate Homeland Security Committee, asked FBI director a series of questions, ranging from where his loyalty lies to what kind of clearance Giuliani has at the White House.</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/roger-stone-trial-begins.jpg"></a>
+                  </div>
+                  <a href="#"><h5>Putin Proposes Russian Version of Wikipedia but With 'Reliable Information'</h5></a>
+                  <p class= "text">At the Council on Russian Language, Russian President Vladimir Putin proposed a Russian version of the online encyclopedia, Wikipedia, which will be created between 2020-2022.</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/saudi-aramco-oil-installation.jpg"></a>
+                  </div>
+                  <a href="#"><h5>Feds Warn That Russia, China and Iran Will Try to Hack 2020 Elections</h5></a>
+                  <p class= "text">On Tuesday, the DOJ, DOD, DHS, DNI, FBI, NSA and CISA released a joint statement on 2020 election security, warning that "Russia, China, Iran, and other foreign malicious actors all will seek to interfere in the voting process or influence voter perceptions."</p> 
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/abortion-activists-roe-v-wade-anniversary-dc.jpg"></a>
+                  </div>
+                  <a href="#"><h5>What Is Ranked-Choice Voting? New York City Adopts New Voting Method </h5></a>
+                  <p class= "text">New York City passed a ballot measure Tuesday that will install ranked-choice voting in the city's elections starting in 2021. It is one of a growing number of places around the world to adopt the voting method.</p> 
                 </div>
               </div>
-              <a href="#" class="title-article"><h5 class= "mt-2" >How Senators Say They're Preparing for an Impeachment Trial</h5></a>
-              <p class="text">Among nearly a dozen Republican and Democratic senators, the methods by which members say they're preparing for the procedures of a trial range widely.</p>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--MORE STORIES -->
-    <div class="main-content">
-      <div class= "latest-news-title gray-titles mb-1">MORE STORIES</div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/mike-pence.jpg"/></a>
-        </div>
-        <a href="#"><h5>Democrats Take Control of Mike Pence's Hometown for First Time in 38 Years</h5></a>
-        <p class= "text">Democrats in Indiana now have the majority of seats in the Columbus City Council.</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/rand-paul.jpg"/></a>
-        </div>
-        <a href="#"><h5>Former Ethics Chief Criticizes Rand Paul Over Threat to Out Whistleblower </h5></a>
-        <p class= "text">Walter Shaub, an ex-director of the Office for Government Ethics, said the Kentucky senator would be committing "one of the most shameful breaches a legislator could commit.</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/metallica.jpg"/></a>
-        </div>
-        <a href="#"><h5>Metallica Donate $100K to California Wildfires Relief</h5></a>
-        <p class= "text">The metal group will be raising money for the wildfire relief effort for third year in a row</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/juli-briskman.jpg"/></a>
-        </div>
-        <a href="#"><h5>Cyclist Who Lost Her Job for Flipping Bird at Trump Wins Election </h5></a>
-        <p class= "text">The image of Juli Briskman, 50, making the gesture to the Trump convoy in 2017 went viral.</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/us-president-barack-obama-samantha-power.jpg"/></a>
-        </div>
-        <a href="#"><h5>Obama Was 'Tormented' Over Syria, Former Ambassador Recalls </h5></a>
-        <p class= "text">The former ambassador to the United Nations has written a book about her time in the White House and said she believes the former president would still have decided not to intervene in Syria.</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/elizabeth-warren.jpg"></a>
-        </div>
-        <a href="#"><h5>Democrats Flip Both Chambers of Virginia's State Government </h5></a>
-        <p class= "text">After 20 years of a maintained Republican majority, the House and Senate have both flipped from blue to red.</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/turkey-drone-attack-northern-iraq-kurds.jpg"></a>
-        </div>
-        <a href="#"><h5>FBI Director Says 'I Don't Know' if Rudy Giuliani Has Security Clearance</h5></a>
-        <p class= "text">Senator Kamala Harris, a member of the Senate Homeland Security Committee, asked FBI director a series of questions, ranging from where his loyalty lies to what kind of clearance Giuliani has at the White House.</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/roger-stone-trial-begins.jpg"></a>
-        </div>
-        <a href="#"><h5>Putin Proposes Russian Version of Wikipedia but With 'Reliable Information'</h5></a>
-        <p class= "text">At the Council on Russian Language, Russian President Vladimir Putin proposed a Russian version of the online encyclopedia, Wikipedia, which will be created between 2020-2022.</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/saudi-aramco-oil-installation.jpg"></a>
-        </div>
-        <a href="#"><h5>Feds Warn That Russia, China and Iran Will Try to Hack 2020 Elections</h5></a>
-        <p class= "text">On Tuesday, the DOJ, DOD, DHS, DNI, FBI, NSA and CISA released a joint statement on 2020 election security, warning that "Russia, China, Iran, and other foreign malicious actors all will seek to interfere in the voting process or influence voter perceptions."</p> 
-      </div>
-      <div class= "image-text-small">
-        <div class="image-small">
-          <a href="#"><img class="img-left" src="images/abortion-activists-roe-v-wade-anniversary-dc.jpg"></a>
-        </div>
-        <a href="#"><h5>What Is Ranked-Choice Voting? New York City Adopts New Voting Method </h5></a>
-        <p class= "text">New York City passed a ballot measure Tuesday that will install ranked-choice voting in the city's elections starting in 2021. It is one of a growing number of places around the world to adopt the voting method.</p> 
-      </div>
-    </div>
-
-      <!-- CULTURE AND TRAVEL -->
-    <div class= "main-content ">
-        <div class="row">
-          <div class=" col-md-8  order-1 order-md2 culture-and-travel">
-            <div class= "article-section">
-              <div class= "top-stories-title  gray-titles culture-title">CULTURE AND TRAVEL</div>
-              <article>
-                <div class= "wrapping-text-image">
-                  <a href="#"><img class="card-img-top" src="images/bowie-banner.jpg" alt="David Bowie"></a>
-                </div>
-                <a href="#" class="small-title-article"><h5 class= "mt-2" >The Literary Influences of Superstar Musician David Bowie</h5></a>
-                <p class="text culture-text">Bowie was more than a multi-platinum rock and roller. He was also one of the more literate composers in the business</p>
-                <div class="tag mb-3">
-                  <a href="">Music</a>
-                </div>
-              </article>
             </div>
-            <article>
-              <div class= "wrapping-text-image">
-                <a href="#"><img class="card-img-top" src="images/sculpture.jpg" alt="Sculputre"></a>
-              </div>
-              <a href="#" class="small-title-article"><h5 class= "mt-2">9 Larger-Than-Life Sculpture Parks Around the World</h5></a>
-              <p class="text culture-text">Across the globe, sculpture parks present imposing works (and even ideas) that are too large to be contained within four walls</p>
-              <div class="tag mb-3">
-                <a href="">Art</a>
-              </div>
-            </article>
-            <article>
-              <div class= "wrapping-text-image">
-                <a href="#"><img class="card-img-top" src="images/fleamarket.jpg" alt="Flea Market"></a>
-              </div>
-              <a href="#" class="small-title-article"><h5 class= "mt-2">The World's Best Flea Markets</h5></a>
-              <p class="text culture-text">These flea markets are internationally renowned, not just because of their size, but because of the varied goods on sale—priceless art treasures, vintage clothing, jewelry and first-edition books.</p>
-              <div class="tag mb-3">
-                <a href="">Travel</a>
-              </div>
-            </article>
-            <article>
-              <div class= "wrapping-text-image">
-                <a href="#"><img class="card-img-top" src="images/saba.jpg" alt="Saba" alt="Flea Market"></a>
-              </div>
-              <a href="#" class="small-title-article"><h5 class= "mt-2">Saba: The Greatest Little Island You Never Heard Of</h5></a>
-              <p class="text culture-text">Islanders call Saba "The Unspoiled Queen of the Caribbean" for its pristine landscapes and striking biodiversity as well as the absence of crowds, chain stores, and cruise ship throngs</p>
-              <div class="tag mb-3">
-                <a href="">Travel</a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-      <!-- FEATURED STORIES -->
-      <div class= "main-content">
-          <div class="row ">
-            <div class=" col-md-8 col-lg-5 order-1 order-md2 feature-stories">
+            <div class=" col-md-5 col-lg order-1 order-md-1 feature-stories">
+                <!-- FEATURED STORIES -->
               <div class= "article-section">
                 <div class= "feature-stories-title  gray-titles mb-2">FEATURE STORIES</div>
                 <article>
                   <div class= "wrapping-text-image">
                     <div>
-                    <a href="#">
+                      <a href="#">
                       <img class="img-top" src="images/moscowmitchisnext-trends-kentucky-election-bevin.jpg" alt="Kentucky election"></a>
                     </div>
                     <div class="category">
-                     <a href=""><span>U.S.</span></a>
+                      <a href=""><span>U.S.</span></a>
                     </div>
                     </a>
                   </div>
@@ -226,7 +216,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/iran-us-embassy-tehran-seized.jpg" alt="Iran-US"></a>
+                    <img class="img-top" src="images/iran-us-embassy-tehran-seized.jpg" alt="Iran-US"></a>
                     </div>
                     <div class="category">
                       <a href=""><span>U.S.</span></a>
@@ -239,7 +229,7 @@
                 <article  class="mt-3">
                   <div class= "wrapping-text-image">
                     <div>
-                    <a href="#">
+                      <a href="#">
                       <img class="img-top" src="images/government-shutdown-deadline-looms.jpg" alt="Goverment Shutdown"></a>
                     </div>
                     <div class="category">
@@ -253,7 +243,7 @@
                 <article  class="mt-3">
                   <div class= "wrapping-text-image">
                     <div>
-                    <a href="#">
+                      <a href="#">
                       <img class="img-top" src="images/best-customer-service-2020.jpg" alt="customer-service"></a>
                     </div>
                     <div class="category">
@@ -264,211 +254,235 @@
                   <a href="#" class="title-article"><h5 class= "mt-2" >Best Customer Service 2020</h5></a>
                   <p class="text">For the second year in a row, we worked with Statista to collect and analyze data across 160 retail categories.</p>
                 </article>
+              </div>
+            </div>
+            <div class= "col-md-12 order-md-3">
+              <!-- OPINION -->
+              <div class= "main-content opinion">
+                <div class= "feature-stories-title  gray-titles mb-2">OPINION</div>
+                <div class="media border-bottom p-2">
+                  <a href="#"><img src="images/greg-olear.png" alt="Greg Olear" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+                <div class="media-body p2 ml-2 pt-3">
+                  <a href="#">Mike Pence Knew</a> 
+                  <p class= "small">BY GREG OLEAR</p>
+                </div>
+                </div>
+                <div class="media border-bottom p-2 ">
+                  <a href="#"><img src="images/robert-reich.png" alt="Rober Reich" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+                  <div class="media-body p2 ml-2 pt-3">
+                    <a href="#">Twitter and Facebook Are Bullhorns for Lies. We Must Break Them Up</a> 
+                    <p class= "small">BY ROBERT REICH</p>
+                  </div>
+                </div>
+                <div class="media border-bottom p-2">
+                  <a href="#"><img src="images/mary-anne-franks.png" alt="Mary Anne" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+                  <div class="media-body p2 ml-2 pt-3">
+                    <a href="#">Congress Failed Katie Hill</a> 
+                    <p class= "small">BY MARY ANNE FRANKS</p>
+                  </div>
+                </div>
+                <div class="media border-bottom p-2">
+                  <a href="#"><img src="images/assal-rad.png" alt="Assal Rad" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+                  <div class="media-body p2 ml-2 pt-3">
+                    <a href="#">The Hostage Crisis Is Harming U.S.-Iran Relations Today. Yet Few Understand It</a> 
+                    <p class= "small">BY ASSAL RAD</p>
+                  </div>
+                </div>
+                <div class="media border-bottom p-2">
+                  <a href="#"><img src="images/eric-higgs.png" alt="Eric Higgs" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+                  <div class="media-body p2 ml-2 pt-3">
+                    <a href="#">We Truckers Can Slam the Brakes on Human Trafficking</a> 
+                    <p class= "small">BY ERIC HIGGS</p>
+                  </div>
+                </div>         
+                <div class="media p-2">
+                  <a href="#"><img src="images/marc-schulman.png" alt="Marc Schulman" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
+                  <div class="media-body p2 ml-2 pt-3">
+                    <a href="#">Israel's Political System Is Gridlocked—but the Economy Happily Ticks Along</a> 
+                    <p class= "small">BY MARC SCHULMAN</p>
+                  </div>
+                </div>                                                                        
+              </div>
+              <!-- LATEST NEWS -->
+              <div class="main-content">
+                <div class= "latest-news-title gray-titles mb-1">LATEST NEWS</div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/which-contestants.png" alt= "voice"/></a>
+                  </div>
+                  <a href="#"><h5>Which Contestants on 'The Voice' are Headed to Live Playoffs?</h5></a>
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/jinping-donald-trump.jpg " alt= "jinping-donaldtrump"/></a>
+                  </div>
+                  <a href="#"><h5>Trump's Trade War With China Has 'Damaged Both Economies' Says Expert</h5></a>
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/cartels-use-presses-impart-prescription-designs.jpg " alt= "drugs"/></a>
+                  </div>
+                  <a href="#"><h5>DEA Agents Say Mexican Cartel Pills 'Exactly' Resemble Prescription</h5></a>
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left" src="images/trump-jr-claims-know-whistleblowers-name.jpg" alt= "trump-jr"/></a>
+                  </div>
+                  <a href="#"><h5>Whistleblower's Law Firm Rebukes Trump Jr for Speculating Name</h5></a>
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left"  src="images/kellyanne-conway-never-trumpers.jpg" alt= "kellyanne-conway"/></a>
+                  </div>
+                  <a href="#"><h5>Watch: Kellyanne Conway Heated Exchange With Reporter Over 'Never Trumpers'</h5></a>
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left"  src="images/lindsey-graham.jpg" alt= "lindsey-graham"/></a>
+                  </div>
+                  <a href="#"><h5>Lindsey Graham Compares Trump Presidency to Christmas</h5></a>
+                </div>
+                <div class= "image-text-small">
+                  <div class="image-small">
+                    <a href="#"><img class="img-left"  src="images/close-camps.jpg" alt= "close-camps"/></a>
+                  </div>
+                  <a href="#"><h5>San Antonio Shuts Down Bid To Open To Open Migrant Child Detention Center</h5></a>
+                </div>
+              </div>
+              <!-- SIGN UP BUTTON -->
+              <div class="container card sign-up mt-3 mb-4"  style= "max-width: 300px;">
+                <div class="card-body p-2">
+                  <div class="media d-flex align-items-center">
+                    <span class="icon-n"></span>
+                    <div class= "n-logo mb-2 mr-2" ><img  src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo"></a></div>
+                    <div class="media-body">
+                      <h5 class="card-title sign-up-text  pt-1 pl-1">SIGN UP FOR OUR NEWSLETTER</h5>
+                    </div> 
+                  </div> 
+                  <a href="#" class="btn-sign-up pt-1 pb-1 pr-2 pl-2 mb-1">
+                    Sign Up 
+                    <i class="fa fa-chevron-right pl-1"></i>
+                  </a>
+                  <a href="" class="card-text update"><p class="card-text update pb-2">Update your preferences >></p></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- OPINION -->
-      <div class= "main-content opinion">
-             <div class= "feature-stories-title  gray-titles mb-2">OPINION</div>
-          <div class="media border-bottom p-2">
-          <a href="#"><img src="images/greg-olear.png" alt="Greg Olear" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-          <div class="media-body p2 ml-2 pt-3">
-            <a href="#">Mike Pence Knew</a> 
-            <p class= "small">BY GREG OLEAR</p>
-          </div>
-        </div>
-        <div class="media border-bottom p-2 ">
-          <a href="#"><img src="images/robert-reich.png" alt="Rober Reich" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-          <div class="media-body p2 ml-2 pt-3">
-            <a href="#">Twitter and Facebook Are Bullhorns for Lies. We Must Break Them Up</a> 
-            <p class= "small">BY ROBERT REICH</p>
-          </div>
-        </div>
-        <div class="media border-bottom p-2">
-          <a href="#"><img src="images/mary-anne-franks.png" alt="Mary Anne" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-          <div class="media-body p2 ml-2 pt-3">
-            <a href="#">Congress Failed Katie Hill</a> 
-            <p class= "small">BY MARY ANNE FRANKS</p>
-          </div>
-        </div>
-        <div class="media border-bottom p-2">
-          <a href="#"><img src="images/assal-rad.png" alt="Assal Rad" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-          <div class="media-body p2 ml-2 pt-3">
-            <a href="#">The Hostage Crisis Is Harming U.S.-Iran Relations Today. Yet Few Understand It</a> 
-            <p class= "small">BY ASSAL RAD</p>
-          </div>
-        </div>
-        <div class="media border-bottom p-2">
-          <a href="#"><img src="images/eric-higgs.png" alt="Eric Higgs" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-          <div class="media-body p2 ml-2 pt-3">
-            <a href="#">We Truckers Can Slam the Brakes on Human Trafficking</a> 
-            <p class= "small">BY ERIC HIGGS</p>
-          </div>
-        </div>         
-        <div class="media p-2">
-          <a href="#"><img src="images/marc-schulman.png" alt="Marc Schulman" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-          <div class="media-body p2 ml-2 pt-3">
-            <a href="#">Israel's Political System Is Gridlocked—but the Economy Happily Ticks Along</a> 
-            <p class= "small">BY MARC SCHULMAN</p>
-          </div>
-        </div>                                                                        
-      </div>
-  
-      <!-- LATEST NEWS -->
-      <div class="main-content">
-        <div class= "latest-news-title gray-titles mb-1">LATEST NEWS</div>
-        <div class= "image-text-small">
-          <div class="image-small">
-            <a href="#"><img class="img-left" src="images/which-contestants.png" alt= "voice"/></a>
-          </div>
-          <a href="#"><h5>Which Contestants on 'The Voice' are Headed to Live Playoffs?</h5></a>
-        </div>
-        <div class= "image-text-small">
-          <div class="image-small">
-            <a href="#"><img class="img-left" src="images/jinping-donald-trump.jpg " alt= "jinping-donaldtrump"/></a>
-          </div>
-          <a href="#"><h5>Trump's Trade War With China Has 'Damaged Both Economies' Says Expert</h5></a>
-        </div>
-        <div class= "image-text-small">
-          <div class="image-small">
-            <a href="#"><img class="img-left" src="images/cartels-use-presses-impart-prescription-designs.jpg " alt= "drugs"/></a>
-          </div>
-          <a href="#"><h5>DEA Agents Say Mexican Cartel Pills 'Exactly' Resemble Prescription</h5></a>
-        </div>
-        <div class= "image-text-small">
-          <div class="image-small">
-            <a href="#"><img class="img-left" src="images/trump-jr-claims-know-whistleblowers-name.jpg" alt= "trump-jr"/></a>
-          </div>
-          <a href="#"><h5>Whistleblower's Law Firm Rebukes Trump Jr for Speculating Name</h5></a>
-        </div>
-        <div class= "image-text-small">
-          <div class="image-small">
-            <a href="#"><img class="img-left"  src="images/kellyanne-conway-never-trumpers.jpg" alt= "kellyanne-conway"/></a>
-          </div>
-          <a href="#"><h5>Watch: Kellyanne Conway Heated Exchange With Reporter Over 'Never Trumpers'</h5></a>
-        </div>
-        <div class= "image-text-small">
-          <div class="image-small">
-            <a href="#"><img class="img-left"  src="images/lindsey-graham.jpg" alt= "lindsey-graham"/></a>
-          </div>
-          <a href="#"><h5>Lindsey Graham Compares Trump Presidency to Christmas</h5></a>
-        </div>
-        <div class= "image-text-small">
-          <div class="image-small">
-            <a href="#"><img class="img-left"  src="images/close-camps.jpg" alt= "close-camps"/></a>
-          </div>
-          <a href="#"><h5>San Antonio Shuts Down Bid To Open To Open Migrant Child Detention Center</h5></a>
-        </div>
-      </div>
-        
-      <!-- SIGN UP BUTTON -->
-      <div class="container card sign-up mt-3 mb-4"  style= "max-width: 300px;">
-        <div class="card-body p-2">
-          <div class="media d-flex align-items-center">
-            <span class="icon-n"></span>
-            <div class= "n-logo mb-2 mr-2" ><img  src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo"></a></div>
-            <div class="media-body">
-              <h5 class="card-title sign-up-text  pt-1 pl-1">SIGN UP FOR OUR NEWSLETTER</h5>
-            </div> 
-          </div> 
-          <a href="#" class="btn-sign-up pt-1 pb-1 pr-2 pl-2 mb-1">
-            Sign Up 
-            <i class="fa fa-chevron-right pl-1"></i>
-          </a>
-          <a href="" class="card-text update"><p class="card-text update pb-2">Update your preferences >></p></a>
-        </div>
-      </div>
-      <!-- SEE ALL FEATURES BIG COVER -->
-      <div>
-        <div class="big-cover wrapping-text-image">
-          <a href="#">
-          <img class="img-top" src="images/november-08-15-2019.jpg" alt="date">
-          <p class="category cover-issues mb-0 ml-2">NOVEMBER 15 ISSUE</p>  
-          </a>
-        </div>
-        <div  class="see-all-features pt-1 pb-1">
-          <a href="#"><p  class= "mb-1">See all Features ></p></a>
-        </div>
-      </div>  
-      
-      <!-- N IN THE MAGAZINE -->
-      <div class= "main-content">
-        <div class="row ">
-          <div class=" col-md-8 col-lg-5 order-1 order-md2 n-in-the-magazine">
-            <div class= "article-section">
-              <div class= "d-flex align-items-center justify-content-center mt-2 mb-2">
-                <div class= "n-in-the-magazine-title  mb-2">
-                  <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: #f72210; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" >
+    
+      <div class= "second-section">
+        <div class= "main-content">
+          <div class="row">
+            <!-- SEE ALL FEATURES BIG COVER -->
+            <div class= "col md-3 order-md-1 align-self-center">
+              <div class="big-cover wrapping-text-image">
+                <a href="#">
+                <img class="img-top" src="images/november-08-15-2019.jpg" alt="date">
+                <p class="category cover-issues mb-0 ml-2">NOVEMBER 15 ISSUE</p>  
+                </a>
+              </div>
+              <div  class="see-all-features pt-1 pb-1">
+                <a href="#"><p  class= "mb-1">See all Features ></p></a>
+              </div>
+            </div>  
+            <!-- N IN THE MAGAZINE -->
+            <div class=" col-md-9 col-lg-5 order-1 order-md-2 n-in-the-magazine">
+              <div class= "article-section">
+                <div class= "row">
+                  <div class= "col-md-12 order-md-1 d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div class= "n-in-the-magazine-title  mb-2">
+                      <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: #f72210; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" >
+                    </div>
+                    <div class= "logo-and-title pl-2">
+                        <span class= "card-text mt-2">IN THE MAGAZINE</span> 
+                    </div>
+                  </div>
                 </div>
-                <div class= "logo-and-title pl-2">
-                    <span class= "card-text mt-2">IN THE MAGAZINE</span> 
+                <div class= "row">
+                  <div class= "col-md-4">
+                    <article>
+                      <div class= "wrapping-text-image">
+                        <div>
+                        <a href="#">
+                          <img class="img-top"  src="images/fe-yang-06-1143955057-banner.jpg" alt="Fe-yang"></a>
+                        </div>
+                        <div class="text-and-link mt-3">
+                          <span class="p-1">COVER</span>
+                          <a href="#" class= "pl-2"><small>POLITICS</small></span></a>
+                        </div>
+                        </a>
+                      </div>
+                      <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Andrew Yang: Math, Jobs and the Robot Future</h4></a>
+                    </article>
+                  </div>
+                  <div class= "col-md-4">   
+                    <article>
+                      <div class= "wrapping-text-image">
+                        <div>
+                        <a href="#">
+                          <img class="img-top"   src="images/sytia.jpg" alt="Syria"></a>
+                        </div>
+                        <div class="text-and-link mt-3">
+                          <span class="p-1">PERISCOPE</span>
+                          <a href="#" class= "pl-2"><small>WORLD</small></span></a>
+                        </div>
+                        </a>
+                      </div>
+                      <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Tug of War: Photographs Capture Horror of Turkey's Offensive Into Syria</h4></a>
+                    </article>
+                  </div>
+                  <div class= "col-md-4">   
+                    <article>
+                      <div class= "wrapping-text-image">
+                        <div>
+                        <a href="#">
+                          <img class="img-top" src="images/senator-sheldon-whitehouse.jpg" alt="Senator-sheldo">
+                        </a>
+                        </div>
+                        <div class="text-and-link mt-3">
+                          <span class="p-1">PERISCOPE</span>
+                          <a href="#" class= "pl-2"><small>POLITICS</small></span></a>
+                        </div>
+                        </a>
+                      </div>
+                      <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Sheldon Whitehouse On Impeachment, Court-Packing and "Getting to 67 Votes"</h4></a>
+                    </article>
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class= "third-section">
+        <div class= "main-content">
+          <div class="row">
+            <div class= "col-md-3">
+              <article>
+                  <div class= "wrapping-text-image">
+                    <div>
+                    <a href="#">
+                      <img class="img-top"src="images/bowie-banner.jpg" alt="David-bowie">
+                    </a>
+                    </div>
+                    <div class="text-and-link mt-3">
+                      <span class="p-1">DOWNTIME</span>
+                      <a href="#" class= "pl-2"><small>CULTURE</small></span></a>
+                    </div>
+                    </a>
+                  </div>
+                  <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">The Literary Influences of Superstar Musician David Bowie</h4></a>
+                </article>
+            </div>
+            <div class= "col-md-3">  
               <article>
                 <div class= "wrapping-text-image">
                   <div>
-                  <a href="#">
-                    <img class="img-top"  src="images/fe-yang-06-1143955057-banner.jpg" alt="Fe-yang"></a>
-                  </div>
-                  <div class="text-and-link mt-3">
-                    <span class="p-1">COVER</span>
-                    <a href="#" class= "pl-2"><small>POLITICS</small></span></a>
-                  </div>
-                  </a>
-                </div>
-                <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Andrew Yang: Math, Jobs and the Robot Future</h4></a>
-              </article>
-              <article>
-                <div class= "wrapping-text-image">
-                  <div>
-                  <a href="#">
-                    <img class="img-top"   src="images/sytia.jpg" alt="Syria"></a>
-                  </div>
-                  <div class="text-and-link mt-3">
-                    <span class="p-1">PERISCOPE</span>
-                    <a href="#" class= "pl-2"><small>WORLD</small></span></a>
-                  </div>
-                  </a>
-                </div>
-                <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Tug of War: Photographs Capture Horror of Turkey's Offensive Into Syria</h4></a>
-              </article>
-              <article>
-                <div class= "wrapping-text-image">
-                  <div>
-                  <a href="#">
-                    <img class="img-top" src="images/senator-sheldon-whitehouse.jpg" alt="Senator-sheldo">
-                  </a>
-                  </div>
-                  <div class="text-and-link mt-3">
-                    <span class="p-1">PERISCOPE</span>
-                    <a href="#" class= "pl-2"><small>POLITICS</small></span></a>
-                  </div>
-                  </a>
-                </div>
-                <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Sheldon Whitehouse On Impeachment, Court-Packing and "Getting to 67 Votes"</h4></a>
-              </article>
-              <article>
-                <div class= "wrapping-text-image">
-                  <div>
-                  <a href="#">
-                    <img class="img-top"src="images/bowie-banner.jpg" alt="David-bowie">
-                  </a>
-                  </div>
-                  <div class="text-and-link mt-3">
-                    <span class="p-1">DOWNTIME</span>
-                    <a href="#" class= "pl-2"><small>CULTURE</small></span></a>
-                  </div>
-                  </a>
-                </div>
-                <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">The Literary Influences of Superstar Musician David Bowie</h4></a>
-              </article>
-              <article>
-                <div class= "wrapping-text-image">
-                  <div>
-                  <a href="#">
-                    <img class="img-top" src="images/sculpture.jpg" alt="sculpture">
-                  </a>
+                    <a href="#">
+                      <img class="img-top" src="images/sculpture.jpg" alt="sculpture">
+                    </a>
                   </div>
                   <div class="text-and-link mt-3">
                     <span class="p-1">FEATURES</span>
@@ -478,12 +492,14 @@
                 </div>
                 <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">9 Larger-Than-Life Sculpture Parks Around the World</h4></a>
               </article>
+            </div>
+            <div class= "col-md-3"> 
               <article>
                 <div class= "wrapping-text-image">
                   <div>
-                  <a href="#">
-                    <img class="img-top" src="images/mccreary.jpg" alt="MCcreary">
-                  </a>
+                    <a href="#">
+                      <img class="img-top" src="images/mccreary.jpg" alt="MCcreary">
+                    </a>
                   </div>
                   <div class="text-and-link mt-3">
                     <span class="p-1">DOWNTIME</span>
@@ -493,6 +509,8 @@
                 </div>
                 <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Kelly McCreary on the Writers of 'Grey's Anatomy' and Getting Out the Vote</h4></a>
               </article>
+            </div>
+            <div class= "col-md-3">
               <article>
                 <div class= "wrapping-text-image">
                   <a href="#">
@@ -501,13 +519,13 @@
                   </a>
                 </div>
                 <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">THE QUEEN’S SPEECH</h4></a>
-              </article>
+                </article>
             </div>
           </div>
         </div>
       </div>  
-  
 
+  
       <!-- EDITORS PICK  -->
         <div class= "main-content">
           <div class="row ">

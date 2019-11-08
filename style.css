@@ -645,8 +645,6 @@ font-weight: bold;
   margin: 6px 0;
 }
 
-
-
 .footer-sections li a {
   color: rgb(102, 102, 102);
 }
@@ -668,5 +666,8 @@ font-weight: bold;
 
 }
 
-
-
+@media only screen and (min-width: 768px) { 
+.text-magazine{
+  font-size: 20px;
+}
+ }
