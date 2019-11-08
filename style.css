@@ -478,6 +478,49 @@ header {
   color: #e9212e;
   z-index: 2;
 }
+
+/* U.S. */
+.four-section-title  {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 25px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 22px;
+  text-transform: none;
+  font-family:"Roboto Condensed",sans-serif;
+ 
+}
+
+.four-section-title a{
+  color: #f72210;
+}
+
+.text-us{
+font-size: 18px;
+line-height: 20px;
+color: black;
+text-decoration: none;
+font-family: 'Roboto Condensed', sans-serif;
+max-width: 100%;
+font-weight: bold;
+}
+
+.us-text-small {
+  border: none;
+}
+
+/* SUBSCRIBE */
+
+.subscribe-div {
+  border-top: 1px solid #d9d9d9;
+}
+.subscribe-title {
+  color: #f72210;
+}
+
+.subscribe-img-section {
+  background-color: #f4f5f6;
+}
 /*
 .top-story {
   position: relative;
