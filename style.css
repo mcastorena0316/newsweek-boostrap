@@ -153,6 +153,10 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
+.more-stories-row {
+  border-top: 1px solid #ddd;
+}
+
 /* CULTURE AND TRAVEL */
 
 
@@ -229,9 +233,10 @@ header {
 /* LATEST NEWS */
 
 .image-text-small {
-  padding-top: 14px;
+  /* padding-top: 14px; */
   padding-bottom: 10px;
-  border-top: 1px solid #ddd;
+  
+  
 }
 
 .image-text-small::after {
@@ -241,10 +246,14 @@ header {
 }
 
 .image-small {
-  float: left;
+  /* float: left; */
   margin-right: 15px;
   clear: right;
  
+}
+
+.us-row {
+  border-bottom: 1px solid #ddd;
 }
 
 .image-small a img {
@@ -253,7 +262,8 @@ header {
   position: relative;
   width: 100%;
   vertical-align: middle;
-  width: 258px
+  padding-left: 15px;
+
 }
 
 .image-text-small a h5{
@@ -261,10 +271,16 @@ header {
   font-weight: 700;
   font-size: 17px;
   font-family: "Roboto Condensed",sans-serif;
+  display: inline-block;
+  width: 100%
 }
 
 .image-text-small a:hover {
   text-decoration-line: none;
+}
+
+.us-text-small {
+  padding: 0;
 }
 
 /* SIGN UP */
@@ -491,6 +507,10 @@ header {
  
 }
 
+.info-small {
+  position: relative;
+}
+
 .four-section-title a{
   color: #f72210;
 }
@@ -670,4 +690,22 @@ font-weight: bold;
 .text-magazine{
   font-size: 20px;
 }
+.img-small {
+  width: 135px;
+  height: 90px;
+  padding-right: 0;
+}
+
+.us-text-small {
+  display: flex;
+}
+
+.image-small {
+  padding: 0;
+}
+
+.info-small {
+  padding-left: 0;
+}
+
  }
