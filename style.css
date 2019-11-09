@@ -76,11 +76,12 @@ header {
   position: relative;
   height: auto;
   max-width: 100%;
+  min-height: 140px;
 }
 
 .wrapping-text-image{
   position: relative;
-  min-height: 33px;
+  min-height: 150px;
 }
 
 .category {
@@ -89,7 +90,6 @@ header {
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0px;
-  left: 0px;
   z-index: 1;
   font-weight: bold; 
   font-size: 17px;
@@ -627,7 +627,8 @@ font-weight: bold;
   border-bottom: 2px solid #f4f5f6;
 }
 
-.footer-font {
+.footer-font,
+.editions-font {
   line-height: 12px;
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
@@ -704,9 +705,12 @@ font-weight: bold;
     display: flex;
   }
 
-  .image-small {
-    padding: 0;
-  }
+ 
+
+.title-n-in-the {
+  border-bottom: 1px solid  #d9d9d9;
+  margin-bottom: 10px
+}
 
   .info-small {
     padding-left: 0;
@@ -747,7 +751,44 @@ font-weight: bold;
   height: 100%;
 }
 
+.big-cover {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 90px
+}
+
+.see-all-features {
+  margin: 0;
+}
+
 .newsletter-container {
   height: 190px;
 }
+
+.icons-footer {
+  justify-content: flex-end;
+}
+
+.logo-copyright {
+  display: flex;
+}
+
+.footer-font {
+  padding-top: 20px;
+}
+.footer-menu-list li {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.countries-list {
+  display: flex;
+}
+
+.cover-issues {
+  padding: 2px 0; 
+  margin-left: 0;
+}
+
 }
