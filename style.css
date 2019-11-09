@@ -56,12 +56,30 @@ header {
 }
 
 
+.text-and-link span,
+.text-and-link a small,
+.logo-and-title span,
+.see-all-features,
+.gray-titles, 
+.category, 
+.category span,
+.media-body a,
+.media-body p,
+.red-btn, 
+.text-us, 
+.four-section-title,
+.sign-up-text,
+.btn-sign-up, 
+.update {
+  font-weight: bold ;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
 /* TOP STORIES */
 .gray-titles {
   color: #03030366;
   font-size: 16px;
-  font-weight: bold;
-  font-family: 'Roboto Condensed', sans-serif;
+
   display: block;
   background-color: white;
 }
@@ -84,26 +102,22 @@ header {
   min-height: 150px;
 }
 
+.category, 
+.category span{
+
+ 
+  font-size: 17px;
+ 
+  color: #f72210;
+  text-decoration: none;
+}
+
 .category {
   display: block;
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0px;
-  z-index: 1;
-  font-weight: bold; 
-  font-size: 17px;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  text-decoration: none;
-}
-
-.category span {
-  font-weight: bold; 
-  font-size: 17px;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #f72210;
-  text-decoration: none;
 }
 
 .category a:hover {
@@ -181,7 +195,8 @@ header {
 }
 
 .culture-text {
-  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-size: 15px/20px;
+  font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
   color: rgba(39,39,39,.5);
   margin-bottom: 10px;
 }
@@ -205,11 +220,8 @@ header {
 }
 
 /* OPINION */
-.media-body a,
-.media-body p{
-  font-weight: bold;
-  font-family: "Roboto Condensed",sans-serif;
-}
+
+
 
 .media-body a {
   margin-bottom: 30px;
@@ -298,8 +310,6 @@ header {
 
 .sign-up-text {
   font-size:  19px;
-  font-weight: bold;
-  font-family: "Roboto Condensed",sans-serif;
   margin-bottom: 10px;
 }
 
@@ -307,9 +317,7 @@ header {
     display: inline-block;
     padding: 10px 10px 10px 20px;
     color: white;
-    font-weight: bold;
     font-size: 18px;
-    font-family: "Roboto Condensed",sans-serif;
     text-transform: uppercase;
     margin-bottom: 15px;
     background-color: #666;
@@ -328,13 +336,9 @@ header {
   font-size: 15px;
 }
 
-
-
 .update {
   color: #333;
-  font-weight: bold;
   font-size: 15px;
-  font-family: "Roboto Condensed",sans-serif;
 }
 
 .update:hover {
@@ -354,9 +358,7 @@ header {
   background-color: #f4f5f6;
   color: black;
   text-align: center;
-  font-weight: bold;
   font-size: 18px;
-  font-family: "Roboto Condensed",sans-serif;
   text-transform: uppercase;
   margin: 0 15px;
 }
@@ -380,19 +382,16 @@ header {
 }
 
 .logo-and-title span {
-  font-weight: bold ;
   font-size: 19px;
-  font-family: "Roboto Condensed",sans-serif;
-
 }
+
 
 .text-and-link span,
 .text-and-link a small {
-  
-  font-weight: bold ;
-  font-size: 16px;
-  font-family: "Roboto Condensed",sans-serif;
+  font-size: 16px
 }
+
+
 
 .text-and-link span,
 .in-focus {
@@ -500,11 +499,8 @@ header {
   border-top: 1px solid #d9d9d9;
   padding-top: 25px;
   font-size: 22px;
-  font-weight: bold;
   line-height: 22px;
   text-transform: none;
-  font-family:"Roboto Condensed",sans-serif;
- 
 }
 
 .info-small {
@@ -520,9 +516,7 @@ font-size: 18px;
 line-height: 20px;
 color: black;
 text-decoration: none;
-font-family: 'Roboto Condensed', sans-serif;
 max-width: 100%;
-font-weight: bold;
 }
 
 .us-text-small {
@@ -593,9 +587,7 @@ font-weight: bold;
   display: inline-block;
   padding: 10px 10px 10px 12px;
   color: white;
-  font-weight: bold ;
   font-size: 18px;
-  font-family: "Roboto Condensed",sans-serif;
   border: none;
   list-style: none outside none;
 
@@ -636,9 +628,7 @@ font-weight: bold;
 
 .logo-copyright p {
   font-size: 12px;
-  
 }
-
 
 .icons-footer li {
   list-style: none;
