@@ -1,7 +1,8 @@
 header {
   height: 40px;
 }
-.nav-date-login{
+
+.nav-date-login {
   max-width: 1310px;
 }
 
@@ -9,11 +10,11 @@ header {
   display: none;
 }
 
-.nav-sub-singin{
+.nav-sub-singin {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
-   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-sub-singin i {
@@ -23,10 +24,9 @@ header {
 
 .nav-button-subscribe {
   background-color: white;
-  color: rgb(247, 34, 16);;
+  color: rgb(247, 34, 16);
   border: none;
   font-weight: 700;
-
 }
 
 .nav-logo {
@@ -34,7 +34,7 @@ header {
   width: 132px;
   height: 20px;
   top: 10px;
-  left: 10px;  
+  left: 10px;
 }
 
 .main-content {
@@ -51,35 +51,32 @@ header {
 .row {
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px
-
+  margin-left: -15px;
 }
-
 
 .text-and-link span,
 .text-and-link a small,
 .logo-and-title span,
 .see-all-features,
-.gray-titles, 
-.category, 
+.gray-titles,
+.category,
 .category span,
 .media-body a,
 .media-body p,
-.red-btn, 
-.text-us, 
+.red-btn,
+.text-us,
 .four-section-title,
 .sign-up-text,
-.btn-sign-up, 
+.btn-sign-up,
 .update {
-  font-weight: bold ;
-  font-family: "Roboto Condensed",sans-serif;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* TOP STORIES */
 .gray-titles {
   color: #03030366;
   font-size: 16px;
-
   display: block;
   background-color: white;
 }
@@ -97,17 +94,14 @@ header {
   min-height: 140px;
 }
 
-.wrapping-text-image{
+.wrapping-text-image {
   position: relative;
   min-height: 150px;
 }
 
-.category, 
-.category span{
-
- 
+.category,
+.category span {
   font-size: 17px;
- 
   color: #f72210;
   text-decoration: none;
 }
@@ -117,7 +111,7 @@ header {
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .category a:hover {
@@ -142,21 +136,20 @@ header {
 }
 
 .text {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   max-width: 100%;
   position: relative;
-  font-size: 13px
+  font-size: 13px;
 }
 
 /* MORE STORIES */
 .image-small a {
-  width: 100%
+  width: 100%;
 }
 
 .more-stories {
   padding-top: 0;
 }
-
 
 .small-title h5 {
   font-size: 17px;
@@ -173,10 +166,9 @@ header {
 
 /* CULTURE AND TRAVEL */
 
-
 .culture-title {
   background-color: #f4f5f7;
-  color: rgba(3,3,3,.5);
+  color: rgba(3, 3, 3, 0.5);
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
 }
@@ -196,12 +188,10 @@ header {
 
 .culture-text {
   font-size: 15px/20px;
-  font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
-  color: rgba(39,39,39,.5);
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
   margin-bottom: 10px;
 }
-
-
 
 .tag a {
   text-decoration: none;
@@ -220,8 +210,6 @@ header {
 }
 
 /* OPINION */
-
-
 
 .media-body a {
   margin-bottom: 30px;
@@ -247,8 +235,6 @@ header {
 .image-text-small {
   /* padding-top: 14px; */
   padding-bottom: 10px;
-  
-  
 }
 
 .image-text-small::after {
@@ -261,7 +247,6 @@ header {
   /* float: left; */
   margin-right: 15px;
   clear: right;
- 
 }
 
 .us-row {
@@ -275,16 +260,15 @@ header {
   width: 100%;
   vertical-align: middle;
   padding-left: 15px;
-
 }
 
-.image-text-small a h5{
+.image-text-small a h5 {
   color: #000;
   font-weight: 700;
   font-size: 17px;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   display: inline-block;
-  width: 100%
+  width: 100%;
 }
 
 .image-text-small a:hover {
@@ -309,20 +293,20 @@ header {
 }
 
 .sign-up-text {
-  font-size:  19px;
+  font-size: 19px;
   margin-bottom: 10px;
 }
 
 .btn-sign-up {
-    display: inline-block;
-    padding: 10px 10px 10px 20px;
-    color: white;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    background-color: #666;
-    border: none;
-    width: 100px;
+  display: inline-block;
+  padding: 10px 10px 10px 20px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: #666;
+  border: none;
+  width: 100px;
 }
 
 .btn-sign-up:hover {
@@ -330,7 +314,6 @@ header {
   text-decoration: none;
   color: white;
 }
-
 
 .btn-sign-up i {
   font-size: 15px;
@@ -367,13 +350,12 @@ header {
   color: black;
 }
 
-.see-all-features a:hover{
+.see-all-features a:hover {
   text-decoration: none;
 }
 
 .see-all-features:hover {
   background-color: #dbdcdd;
-
 }
 
 /* N IN THE MAGAZINE */
@@ -385,13 +367,10 @@ header {
   font-size: 19px;
 }
 
-
 .text-and-link span,
 .text-and-link a small {
-  font-size: 16px
+  font-size: 16px;
 }
-
-
 
 .text-and-link span,
 .in-focus {
@@ -399,7 +378,6 @@ header {
   background-color: #f72210;
   color: white;
 }
-
 
 .text-and-link a small {
   color: #f72210;
@@ -417,7 +395,6 @@ header {
   text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
   max-width: 100%;
-
 }
 
 .in-focus {
@@ -442,15 +419,14 @@ header {
   font-family: 'Roboto Condensed', sans-serif;
   max-width: 100%;
   font-weight: bold;
-
 }
 
 /* FEATURED-SLIDESHOW */
 
 .featured-title {
   position: relative;
-
 }
+
 .logo-featured::after {
   border-bottom: 3px solid red;
   border-right: 3px solid red;
@@ -495,7 +471,7 @@ header {
 }
 
 /* U.S. */
-.four-section-title  {
+.four-section-title {
   border-top: 1px solid #d9d9d9;
   padding-top: 25px;
   font-size: 22px;
@@ -507,16 +483,16 @@ header {
   position: relative;
 }
 
-.four-section-title a{
+.four-section-title a {
   color: #f72210;
 }
 
-.text-us{
-font-size: 18px;
-line-height: 20px;
-color: black;
-text-decoration: none;
-max-width: 100%;
+.text-us {
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+  text-decoration: none;
+  max-width: 100%;
 }
 
 .us-text-small {
@@ -528,6 +504,7 @@ max-width: 100%;
 .subscribe-div {
   border-top: 1px solid #d9d9d9;
 }
+
 .subscribe-title {
   color: #f72210;
 }
@@ -538,9 +515,7 @@ max-width: 100%;
 }
 
 .two-images {
- 
   padding-bottom: 13px;
- 
 }
 
 .first-image {
@@ -566,8 +541,9 @@ max-width: 100%;
 .subscribe-text {
   text-align: center;
 }
+
 .depth-stories {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
   line-height: 28px;
   font-weight: 700;
@@ -577,10 +553,9 @@ max-width: 100%;
 .newsletter-text {
   font-weight: 300;
   font-size: 15px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(51, 51, 51);
 }
-
 
 .red-btn {
   background-color: #f72210;
@@ -590,7 +565,6 @@ max-width: 100%;
   font-size: 18px;
   border: none;
   list-style: none outside none;
-
 }
 
 .red-btn:hover {
@@ -609,7 +583,7 @@ max-width: 100%;
 .newsletter-text {
   border: 1px solid rgb(235, 235, 235);
   position: relative;
-  text-align: center
+  text-align: center;
 }
 
 /* FOOTER  */
@@ -634,7 +608,6 @@ max-width: 100%;
   list-style: none;
   font-size: 26px;
   margin: 0 5px;
- 
 }
 
 .icons-footer li a {
@@ -668,6 +641,7 @@ max-width: 100%;
   color: black;
   text-decoration: none;
 }
+
 .editions-font {
   font-size: 14px;
   line-height: 15px;
@@ -678,13 +652,13 @@ max-width: 100%;
 
 .countries-list li {
   list-style: none;
-
 }
 
-@media only screen and (min-width: 768px) { 
-  .text-magazine{
+@media only screen and (min-width: 768px) {
+  .text-magazine {
     font-size: 20px;
   }
+
   .img-small {
     width: 135px;
     height: 90px;
@@ -695,12 +669,12 @@ max-width: 100%;
     display: flex;
   }
 
- 
 
-.title-n-in-the {
-  border-bottom: 1px solid  #d9d9d9;
-  margin-bottom: 10px
-}
+
+  .title-n-in-the {
+    border-bottom: 1px solid  #d9d9d9;
+    margin-bottom: 10px;
+  }
 
   .info-small {
     padding-left: 0;
@@ -709,7 +683,6 @@ max-width: 100%;
   .subscribe-text {
     text-align: start;
     margin-left: -100px;
-
   }
 
   .depth-stories {
@@ -717,68 +690,85 @@ max-width: 100%;
     margin-top: 35px;
   }
 
+  .body-subscribe {
+    width: 100%;
+  }
 
-.body-subscribe {
-  width: 100%;
+  .two-images {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-image {
+    left: 0;
+  }
+
+  .second-image {
+    right: 90px;
+  }
+
+  .newsletter-text {
+    text-align: start;
+  }
+
+  .news-img-container {
+    height: 100%;
+  }
+
+  .big-cover {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 90px;
+  }
+
+  .see-all-features {
+    margin: 0;
+  }
+
+  .newsletter-container {
+    height: 190px;
+  }
+
+  .icons-footer {
+    justify-content: flex-end;
+  }
+
+  .logo-copyright {
+    display: flex;
+  }
+
+  .footer-font {
+    padding-top: 20px;
+  }
+
+  .footer-menu-list li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .countries-list {
+    display: flex;
+  }
+
+  .cover-issues {
+    padding: 2px 0;
+    margin-left: 0;
+  }
+
+  .number-republican {
+    border-bottom: none;
+  }
 }
 
-.two-images {
-  display: flex;
-  flex-direction: row;
-}
-.first-image {
-  left: 0px;
-}
-
-.second-image {
-  right: 90px;
-}
-.newsletter-text {
-  text-align: start;
-}
-
-.news-img-container {
-  height: 100%;
-}
-
-.big-cover {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 90px
-}
-
-.see-all-features {
-  margin: 0;
-}
+@media only screen and (min-width: 1025px){
 
 .newsletter-container {
-  height: 190px;
+  height: 287px;
 }
 
-.icons-footer {
-  justify-content: flex-end;
+.footer-bottom-right div {
+  width: 33.333%
 }
+ 
 
-.logo-copyright {
-  display: flex;
-}
-
-.footer-font {
-  padding-top: 20px;
-}
-.footer-menu-list li {
-  border-right: 1px solid #d9d9d9;
-  padding-right: 10px;
-  margin-right: 10px;
-}
-
-.countries-list {
-  display: flex;
-}
-
-.cover-issues {
-  padding: 2px 0; 
-  margin-left: 0;
-}
-
-}
