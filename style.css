@@ -643,11 +643,12 @@ header {
 }
 
 .editions-font {
+  padding-left: 22px;
   font-size: 14px;
   line-height: 15px;
   color: #666;
   font-weight: bold;
-  padding-left: 13px;
+  padding-top: px;
 }
 
 .countries-list li {
@@ -741,7 +742,12 @@ header {
     padding-top: 20px;
   }
 
-  .footer-menu-list li {
+  .footer-div {
+    padding-bottom: 2px;
+  }
+
+  .footer-menu-list li,
+  .footer-sections li {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
     margin-right: 10px;
@@ -751,6 +757,9 @@ header {
     display: flex;
   }
 
+  .editions-font {
+    padding-left: 25px;
+  }
   .cover-issues {
     padding: 2px 0;
     margin-left: 0;
@@ -768,7 +777,52 @@ header {
 }
 
 .footer-bottom-right div {
-  width: 33.333%
+ justify-content: flex-end;
 }
- 
 
+.footer-bottom-left {
+  float: left;
+}
+
+.footer-bottom-right {
+  float: right;
+}
+.footer-div {
+  width: 70%;
+  height: 54px;
+
+}
+
+.footer-bottom-right div {
+  justify-content: flex-end;
+}
+.footer-sections  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-sections li {
+  padding: 5px 10px;
+}
+
+.footer-font, 
+.footer-bottom-right div {
+  padding-top: 5px;
+}
+
+.editions-font {
+  padding-top: 10px;
+}
+
+.countries-list {
+  padding-left: 5px;
+}
+
+.icons-footer {
+  padding-right: 50px;
+}
+
+.logo-copyright p {
+  padding-top: 20px;
+}
+}
