@@ -2,8 +2,17 @@ header {
   height: 40px;
 }
 
+.header-top {
+  max-width: 1310px;
+
+}
+
+.header-bottom {
+  display: none; 
+}
 .nav-date-login {
   max-width: 1310px;
+  justify-content: flex-end
 }
 
 .nav-date {
@@ -35,6 +44,11 @@ header {
   height: 20px;
   top: 10px;
   left: 10px;
+}
+
+.nav-logo a img {
+  height:20px; 
+  width: 100%;
 }
 
 .main-content {
@@ -89,8 +103,6 @@ header {
 .img-top {
   width: 100%;
   position: relative;
-  height: auto;
-  max-width: 100%;
   min-height: 140px;
 }
 
@@ -254,8 +266,6 @@ header {
 }
 
 .image-small a img {
-  max-width: 100%;
-  height: auto;
   position: relative;
   width: 100%;
   vertical-align: middle;
@@ -526,9 +536,7 @@ header {
 
 .first-image img {
   vertical-align: middle;
-  height: auto;
   width: 100%;
-  max-width: 100%;
 }
 
 .second-image {
@@ -656,6 +664,8 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
+
+
   .text-magazine {
     font-size: 20px;
   }
@@ -770,7 +780,112 @@ header {
   }
 }
 
-@media only screen and (min-width: 1025px){
+@media only screen and (min-width: 992px){
+
+  .header-top {
+    height: 95px;
+    margin-left: 5px;
+  }
+  .nav-date-login {
+    justify-content: space-between;
+    padding-top: 45px;
+  }
+
+  .nav-logo {
+    left: 35%;
+    padding-top: 15px
+  }
+
+  .nav-logo a img {
+    height: 60px;
+    width: 396px;
+  
+  }
+
+  .nav-sub-singin i {
+    display: none;
+  }
+
+ .nav-date {
+   display: block;
+   margin-left: 15px;
+   font-size: 16px;
+   font-family: "Roboto Condensed", sans-serif;
+
+ }
+ .header-bottom::before {
+  position: absolute;
+  top: 0;
+  right: 7px;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 15px solid #f72210;
+  margin-left: 5px;
+  width: 60px;
+}
+ 
+
+ .header-bottom {
+   display: block;
+   margin-top: 90px;
+
+ }
+
+ .search {
+  color: rgba(0,0,0,.55);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: start;
+  margin: 3px 5px 0 0;
+ }
+
+ .search i {
+   padding-left: 5px;
+   font-size: 25px;
+ }
+
+ .page-nav{ 
+   list-style: none;
+   padding-left: 0;
+   border-bottom: 1px solid #f4f5f6;
+ }
+
+ .page-nav li {
+   flex-grow: 1;
+   padding: 0 5px;
+
+}
+
+
+ .usa {
+   margin: 5px;
+   text-align: center;
+ }
+
+ .page-nav li a {
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  color: black;
+  font-family: "Roboto Condensed",sans-serif;
+ }
+
+ .page-nav li a:hover {
+  color: #f72210;
+  text-decoration-line: none;
+ }
+ .page-list {
+  border-left: 1px solid #d9d9d9;
+  margin: 5px;
+  text-align: center;
+
+ }
+
+ .big-cover {
+   padding-top: 0;
+ }
 
 .newsletter-container {
   height: 287px;
@@ -824,5 +939,12 @@ header {
 
 .logo-copyright p {
   padding-top: 20px;
+}
+
+.in-the-pic {
+  min-height: 250px;
+  object-fit: cover;
+
+
 }
 }

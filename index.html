@@ -21,40 +21,40 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
   <!-- NAVBAR -->
     <header>
-        <div class= "header-top fixed-top nav-top pt-1 pb-1"  style="background-color: rgb(247, 34, 16);">
-          <div class= "d-flex justify-content-end nav-date-login text-white align-items-center">
-              <div class= "p-2 nav-date"><span class="sign-in text-white">Tue, Nov 05, 2019</span></div>
-              <div class= "p-s d-flex align-items-center nav-sub-singin">
-                <a class="nav-link active text-white" href="{{ url('/login') }}">SIGN IN</a>
-                <button class="nav-button-subscribe mr-3 pt-1">SUBSCRIBE   ></button>
-                <i class="mr-3 ml-3 fa fa-bars"></i>
-              </div>
-          </div>
-          <div class="nav-logo">
-              <img src="images/newsweek-logo.png" width= "100%" height="20px" alt="logo">
+      <div class= "header-top fixed-top nav-top pt-1 pb-1"  style="background-color: rgb(247, 34, 16);">
+        <div class= "d-flex  nav-date-login text-white align-items-center">
+          <div class= "p-2 nav-date"><span class="sign-in text-white">Tue, Nov 05, 2019</span></div>
+          <div class= "p-s d-flex align-items-center nav-sub-singin">
+            <a class="nav-link active text-white" href="#">SIGN IN</a>
+            <button class="nav-button-subscribe mr-3 pt-1 pl-3 pr-3">SUBSCRIBE   ></button>
+            <i class=" mr-3 ml-3 fa fa-bars"></i>
           </div>
         </div>
-        <nav class= "navbar header-bottom" style= "display: none">
-          <div class= "flex-md">
-            <ul class= "page-nav">
-              <li><a>U.S.</a></li>
-              <li><a>World</a></li>
-              <li><a>Bisiness</a></li>
-              <li><a>Tech & Science</a></li>
-              <li><a>Culture</a></li>
-              <li><a>Sports</a></li>
-              <li><a>Health</a></li>
-              <li><a>Opinion</a></li>
-              <li><a>Ndelible</a></li>
-              <li><a id="search">Search</a><i class="fas fa-search"></i></li>
-            </ul>
-          </div>
-        </nav>
+        <div class="nav-logo">
+          <a href=""><img src="images/newsweek-logo.png" alt="logo"></a>
+        </div>
+      </div>
+      <nav class= "navbar header-bottom">
+        <div class= "flex-md">
+          <ul class= "page-nav pb-2 pt-2 d-flex">
+            <li class= "usa"><a  href="">U.S.</a></li>
+            <li class="page-list"><a href="">World</a></li>
+            <li class="page-list"><a href="">Business</a></li>
+            <li class="page-list" ><a href=""> Tech & Science</a></li>
+            <li class="page-list"><a href="">Culture</a></li>
+            <li class="page-list"><a href="">Sports</a></li>
+            <li class="page-list"><a href="">Newsgeek</a></li>
+            <li class="page-list"><a href="">Health</a></li>
+            <li class="page-list"><a href="">Opinion</a></li>
+            <li class="page-list"><a href="">Vantage</a></li>
+            <li  class="search">Search<i class="fa fa-search"></i></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main>
+  <main>
       <div class= "first-top">
         <div class= "main-content">
           <div class="row">
@@ -83,7 +83,7 @@
                 <div class="row">
                   <div class= "col-md-6">
                     <div class= "wrapping-text-image">
-                      <a href="#"><img class="card-img-top" src="images/bowie-banner.jpg" alt="David Bowie"></a>
+                      <a href="#"><img class="card-img-top img-fluid" src="images/bowie-banner.jpg" alt="David Bowie"></a>
                     </div>
                     <a href="#" class="small-title-article"><h5 class= "mt-2" >The Literary Influences of Superstar Musician David Bowie</h5></a>
                     <p class="text culture-text">Bowie was more than a multi-platinum rock and roller. He was also one of the more literate composers in the business</p>
@@ -93,7 +93,7 @@
                   </div>
                   <div class="col-md-6"> 
                     <div class= "wrapping-text-image">
-                      <a href="#"><img class="card-img-top" src="images/sculpture.jpg" alt="Sculputre"></a>
+                      <a href="#"><img class="card-img-top img-fluid" src="images/sculpture.jpg" alt="Sculputre"></a>
                     </div>
                     <a href="#" class="small-title-article"><h5 class= "mt-2">9 Larger-Than-Life Sculpture Parks Around the World</h5></a>
                     <p class="text culture-text">Across the globe, sculpture parks present imposing works (and even ideas) that are too large to be contained within four walls</p>
@@ -105,7 +105,7 @@
                 <div class= "row">
                   <div class= "col-md-6">
                     <div class= "wrapping-text-image">
-                      <a href="#"><img class="card-img-top" src="images/fleamarket.jpg" alt="Flea Market"></a>
+                      <a href="#"><img class="card-img-top img-fluid" src="images/fleamarket.jpg" alt="Flea Market"></a>
                     </div>
                     <a href="#" class="small-title-article"><h5 class= "mt-2">The World's Best Flea Markets</h5></a>
                     <p class="text culture-text">These flea markets are internationally renowned, not just because of their size, but because of the varied goods on sale—priceless art treasures, vintage clothing, jewelry and first-edition books.</p>
@@ -115,7 +115,7 @@
                   </div>
                   <div class= "col-md-6">
                     <div class= "wrapping-text-image">
-                      <a href="#"><img class="card-img-top" src="images/saba.jpg" alt="Saba" alt="Flea Market"></a>
+                      <a href="#"><img class="card-img-top img-fluid" src="images/saba.jpg" alt="Saba"></a>
                     </div>
                     <a href="#" class="small-title-article"><h5 class= "mt-2">Saba: The Greatest Little Island You Never Heard Of</h5></a>
                     <p class="text culture-text">Islanders call Saba "The Unspoiled Queen of the Caribbean" for its pristine landscapes and striking biodiversity as well as the absence of crowds, chain stores, and cruise ship throngs</p>
@@ -132,7 +132,7 @@
                   <div class="col-5 col-md-4  us-text-small ">
                     <div class= "image-text-small">
                       <div class="image-small">
-                        <a href="#"><img class="img-left" src="images/mike-pence.jpg"/></a>
+                        <a href="#"><img class="img-left img-fluid" src="images/mike-pence.jpg" alt="mike-pence"/></a>
                       </div>
                     </div>
                   </div>
@@ -142,139 +142,137 @@
                   </div>
                 </div>
                 <div class= "row mt-2 more-stories-row pt-3">
-                    <div class="col-5 col-md-4  us-text-small ">
-                      <div class= "image-text-small">
-                        <div class="image-small">
-                          <a href="#"><img class="img-left" src="images/rand-paul.jpg"/></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                      <a href="#"><h5>Former Ethics Chief Criticizes Rand Paul Over Threat to Out Whistleblower </h5></a>
-                      <p class= "text">Walter Shaub, an ex-director of the Office for Government Ethics, said the Kentucky senator would be committing "one of the most shameful breaches a legislator could commit.</p> 
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid" src="images/rand-paul.jpg" alt="rand-paul"/></a>
+                      </div> 
                     </div>
                   </div>
-                  <div class= "row mt-2 more-stories-row pt-3">
-                    <div class="col-5 col-md-4  us-text-small ">
-                      <div class= "image-text-small">
-                        <div class="image-small">
-                          <a href="#"><img class="img-left" src="images/metallica.jpg"/></a>
-                        </div>
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>Former Ethics Chief Criticizes Rand Paul Over Threat to Out Whistleblower </h5></a>
+                    <p class= "text">Walter Shaub, an ex-director of the Office for Government Ethics, said the Kentucky senator would be committing "one of the most shameful breaches a legislator could commit.</p> 
+                  </div>
+                </div>
+                <div class= "row mt-2 more-stories-row pt-3">
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid" src="images/metallica.jpg" alt="metallica"/></a>
                       </div>
-                    </div>
-                    <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                      <a href="#"><h5>Metallica Donate $100K to California Wildfires Relief</h5></a>
-                      <p class= "text">The metal group will be raising money for the wildfire relief effort for third year in a row.</p> 
                     </div>
                   </div>
-                  <div class= "row mt-2 more-stories-row pt-3">
-                    <div class="col-5 col-md-4  us-text-small ">
-                      <div class= "image-text-small">
-                        <div class="image-small">
-                          <a href="#"><img class="img-left" src="images/juli-briskman.jpg"/></a>
-                        </div>
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>Metallica Donate $100K to California Wildfires Relief</h5></a>
+                    <p class= "text">The metal group will be raising money for the wildfire relief effort for third year in a row.</p> 
+                  </div>
+                </div>
+                <div class= "row mt-2 more-stories-row pt-3">
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid" src="images/juli-briskman.jpg" alt="juli-briskman"/></a>
                       </div>
-                    </div>
-                    <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                      <a href="#"><h5>Cyclist Who Lost Her Job for Flipping Bird at Trump Wins Election </h5></a>
-                      <p class= "text">The image of Juli Briskman, 50, making the gesture to the Trump convoy in 2017 went viral.</p> 
                     </div>
                   </div>
-                  <div class= "row mt-2 more-stories-row pt-3">
-                    <div class="col-5 col-md-4  us-text-small ">
-                      <div class= "image-text-small">
-                        <div class="image-small">
-                          <a href="#"><img class="img-left"  src="images/us-president-barack-obama-samantha-power.jpg"/></a>
-                        </div>
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>Cyclist Who Lost Her Job for Flipping Bird at Trump Wins Election </h5></a>
+                    <p class= "text">The image of Juli Briskman, 50, making the gesture to the Trump convoy in 2017 went viral.</p> 
+                  </div>
+                </div>
+                <div class= "row mt-2 more-stories-row pt-3">
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid"  src="images/us-president-barack-obama-samantha-power.jpg" alt="us-president-barack-obama-samantha-power"/></a>
                       </div>
-                    </div>
-                    <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                      <a href="#"><h5>Obama Was 'Tormented' Over Syria, Former Ambassador Recalls  </h5></a>
-                      <p class= "text">The former ambassador to the United Nations has written a book about her time in the White House and said she believes the former president would still have decided not to intervene in Syria.</p> 
                     </div>
                   </div>
-                  <div class= "row mt-2 more-stories-row pt-3">
-                      <div class="col-5 col-md-4  us-text-small ">
-                        <div class= "image-text-small">
-                          <div class="image-small">
-                            <a href="#"><img class="img-left"   src="images/elizabeth-warren.jpg"/></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                        <a href="#"><h5>Democrats Flip Both Chambers of Virginia's State Government</h5></a>
-                        <p class= "text">After 20 years of a maintained Republican majority, the House and Senate have both flipped from blue to red.</p> 
-                      </div>
-                    </div>
-                    <div class= "row mt-2 more-stories-row pt-3">
-                      <div class="col-5 col-md-4  us-text-small ">
-                        <div class= "image-text-small">
-                          <div class="image-small">
-                            <a href="#"><img class="img-left" src="images/turkey-drone-attack-northern-iraq-kurds.jpg"/></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                        <a href="#"><h5>FBI Director Says 'I Don't Know' if Rudy Giuliani Has Security Clearance</h5></a>
-                        <p class= "text">Senator Kamala Harris, a member of the Senate Homeland Security Committee, asked FBI director a series of questions, ranging from where his loyalty lies to what kind of clearance Giuliani has at the White House.</p> 
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>Obama Was 'Tormented' Over Syria, Former Ambassador Recalls  </h5></a>
+                    <p class= "text">The former ambassador to the United Nations has written a book about her time in the White House and said she believes the former president would still have decided not to intervene in Syria.</p> 
+                  </div>
+                </div>
+                <div class= "row mt-2 more-stories-row pt-3">
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid"   src="images/elizabeth-warren.jpg" alt="elizabeth-warren"/></a>
                       </div>
                     </div>
-                    <div class= "row mt-2 more-stories-row pt-3">
-                      <div class="col-5 col-md-4  us-text-small ">
-                        <div class= "image-text-small">
-                          <div class="image-small">
-                            <a href="#"><img class="img-left" src="images/russia-supreme-court.jpg"/></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                        <a href="#"><h5>Putin Proposes Russian Version of Wikipedia but With 'Reliable Information'</h5></a>
-                        <p class= "text">At the Council on Russian Language, Russian President Vladimir Putin proposed a Russian version of the online encyclopedia, Wikipedia, which will be created between 2020-2022.</p> 
-                      </div>
-                    </div>
-                    <div class= "row mt-2 more-stories-row pt-3">
-                      <div class="col-5 col-md-4  us-text-small ">
-                        <div class= "image-text-small">
-                          <div class="image-small">
-                            <a href="#"><img class="img-left" src="images/saudi-aramco-oil-installation.jpg"/></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                        <a href="#"><h5>Feds Warn That Russia, China and Iran Will Try to Hack 2020 Elections</h5></a>
-                        <p class= "text">On Tuesday, the DOJ, DOD, DHS, DNI, FBI, NSA and CISA released a joint statement on 2020 election security, warning that "Russia, China, Iran, and other foreign malicious actors all will seek to interfere in the voting process or influence voter perceptions..</p> 
+                  </div>
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>Democrats Flip Both Chambers of Virginia's State Government</h5></a>
+                    <p class= "text">After 20 years of a maintained Republican majority, the House and Senate have both flipped from blue to red.</p> 
+                  </div>
+                </div>
+                <div class= "row mt-2 more-stories-row pt-3">
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid" src="images/turkey-drone-attack-northern-iraq-kurds.jpg" alt="turkey-drone-attack-northern-iraq-kurds"/></a>
                       </div>
                     </div>
-                    <div class= "row mt-2 more-stories-row pt-3">
-                        <div class="col-5 col-md-4  us-text-small ">
-                          <div class= "image-text-small">
-                            <div class="image-small">
-                              <a href="#"><img class="img-left" src="images/abortion-activists-roe-v-wade-anniversary-dc.jpg"/></a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
-                          <a href="#"><h5>What Is Ranked-Choice Voting? New York City Adopts New Voting Method </h5></a>
-                          <p class= "text">New York City passed a ballot measure Tuesday that will install ranked-choice voting in the city's elections starting in 2021. It is one of a growing number of places around the world to adopt the voting method.</p> 
-                        </div>
+                  </div>
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>FBI Director Says 'I Don't Know' if Rudy Giuliani Has Security Clearance</h5></a>
+                    <p class= "text">Senator Kamala Harris, a member of the Senate Homeland Security Committee, asked FBI director a series of questions, ranging from where his loyalty lies to what kind of clearance Giuliani has at the White House.</p> 
+                  </div>
+                </div>
+                <div class= "row mt-2 more-stories-row pt-3">
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid" src="images/russia-supreme-court.jpg" alt="russia-supreme-court"/></a>
                       </div>
+                    </div>
+                  </div>
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>Putin Proposes Russian Version of Wikipedia but With 'Reliable Information'</h5></a>
+                    <p class= "text">At the Council on Russian Language, Russian President Vladimir Putin proposed a Russian version of the online encyclopedia, Wikipedia, which will be created between 2020-2022.</p> 
+                  </div>
+                </div>
+                <div class= "row mt-2 more-stories-row pt-3">
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid" src="images/saudi-aramco-oil-installation.jpg" alt="saudi-aramco-oil-installation"/></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>Feds Warn That Russia, China and Iran Will Try to Hack 2020 Elections</h5></a>
+                    <p class= "text">On Tuesday, the DOJ, DOD, DHS, DNI, FBI, NSA and CISA released a joint statement on 2020 election security, warning that "Russia, China, Iran, and other foreign malicious actors all will seek to interfere in the voting process or influence voter perceptions..</p> 
+                  </div>
+                </div>
+                <div class= "row mt-2 more-stories-row pt-3">
+                  <div class="col-5 col-md-4  us-text-small ">
+                    <div class= "image-text-small">
+                      <div class="image-small">
+                        <a href="#"><img class="img-left img-fluid" src="images/abortion-activists-roe-v-wade-anniversary-dc.jpg" alt="abortion-activists-roe-v-wade-anniversary-dc"/></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class= "col-7 col-md-8 info-small image-text-small pl-0 pt-0">
+                    <a href="#"><h5>What Is Ranked-Choice Voting? New York City Adopts New Voting Method </h5></a>
+                    <p class= "text">New York City passed a ballot measure Tuesday that will install ranked-choice voting in the city's elections starting in 2021. It is one of a growing number of places around the world to adopt the voting method.</p> 
+                  </div>
+                </div>
               </div>
             </div>
-
+             <!-- FEATURED STORIES -->
             <div class=" col-md-5 col-lg order-1 order-md-1  col-lg-3 order-lg-1 feature-stories">
-                <!-- FEATURED STORIES -->
               <div class= "article-section">
                 <div class= "feature-stories-title  gray-titles mb-2">FEATURE STORIES</div>
                 <article>
                   <div class= "wrapping-text-image">
                     <div>
                       <a href="#">
-                      <img class="img-top" src="images/moscowmitchisnext-trends-kentucky-election-bevin.jpg" alt="Kentucky election"></a>
+                      <img class="img-top img-fluid" src="images/moscowmitchisnext-trends-kentucky-election-bevin.jpg" alt="Kentucky election"></a>
                     </div>
                     <div class="category">
                       <a href=""><span>U.S.</span></a>
                     </div>
-                    </a>
                   </div>
                   <a href="#" class="title-article"><h5 class= "mt-2" >Critics Taunt McConnell as Democrat Claims Victory in Kentucky Governor's Race</h5></a>
                   <p class="text">Mitch McConnell's critics saw Tuesday's election as a sign of the Senate majority leader's fate in 2020, but President Donald Trump argued it was proof he would "win big.</p>
@@ -282,13 +280,12 @@
                 <article  class="mt-3">
                   <div class= "wrapping-text-image">
                     <div>
-                    <a href="#">
-                    <img class="img-top" src="images/iran-us-embassy-tehran-seized.jpg" alt="Iran-US"></a>
+                      <a href="#">
+                      <img class="img-top img-fluid" src="images/iran-us-embassy-tehran-seized.jpg" alt="Iran-US"></a>
                     </div>
                     <div class="category">
                       <a href=""><span>U.S.</span></a>
                     </div>
-                    </a>
                   </div>
                   <a href="#" class="title-article"><h5 class= "mt-2" >U.S. Poised to Remain the 'Great Satan' in Iran for Decades</h5></a>
                   <p class="text">This week marks the 40th anniversary of the storming of the U.S. embassy in Tehran, an event that marked the start of a decades-long stand off between Washington and Iran</p>
@@ -297,12 +294,11 @@
                   <div class= "wrapping-text-image">
                     <div>
                       <a href="#">
-                      <img class="img-top" src="images/government-shutdown-deadline-looms.jpg" alt="Goverment Shutdown"></a>
+                      <img class="img-top img-fluid" src="images/government-shutdown-deadline-looms.jpg" alt="Goverment Shutdown"></a>
                     </div>
                     <div class="category">
                       <a href=""><span>POLITICS</span></a>
                     </div>
-                    </a>
                   </div>
                   <a href="#" class="title-article"><h5 class= "mt-2" >As Trump Refuses to Rule Out Gov Shutdown, Temporary Funding Seems Likely</h5></a>
                   <p class="text">My assessment is one could run into February," said Senator Richard Shelby, chairman of the Senate Appropriations Committee. "Will it? It's not up to me."</p>
@@ -311,28 +307,27 @@
                   <div class= "wrapping-text-image">
                     <div>
                       <a href="#">
-                      <img class="img-top" src="images/best-customer-service-2020.jpg" alt="customer-service"></a>
+                      <img class="img-top img-fluid" src="images/best-customer-service-2020.jpg" alt="customer-service"></a>
                     </div>
                     <div class="category">
                       <a href=""><span>SURVEY</span></a>
                     </div>
-                    </a>
                   </div>
                   <a href="#" class="title-article"><h5 class= "mt-2" >Best Customer Service 2020</h5></a>
                   <p class="text">For the second year in a row, we worked with Statista to collect and analyze data across 160 retail categories.</p>
                 </article>
               </div>
             </div>
+             <!-- OPINION -->
             <div class= "col-md-12 order-md-3 col-lg-4">
-              <!-- OPINION -->
               <div class= "main-content opinion">
                 <div class= "feature-stories-title  gray-titles mb-2">OPINION</div>
                 <div class="media border-bottom p-2">
                   <a href="#"><img src="images/greg-olear.png" alt="Greg Olear" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
-                <div class="media-body p2 ml-2 pt-3">
-                  <a href="#">Mike Pence Knew</a> 
-                  <p class= "small">BY GREG OLEAR</p>
-                </div>
+                  <div class="media-body p2 ml-2 pt-3">
+                    <a href="#">Mike Pence Knew</a> 
+                    <p class= "small">BY GREG OLEAR</p>
+                  </div>
                 </div>
                 <div class="media border-bottom p-2 ">
                   <a href="#"><img src="images/robert-reich.png" alt="Rober Reich" class="mr-3 mt-3 rounded-circle" style="width:60px;"></a>
@@ -376,7 +371,7 @@
                 <div class= "row us-row pb-2 mt-3">
                     <div class="col-5 col-md-5  us-text-small">
                       <div class= "image-small">
-                      <a href="#"><img class="img-left" src="images/which-contestants.png" alt= "voice"/></a>
+                      <a href="#"><img class="img-left img-fluid" src="images/which-contestants.png" alt= "voice"/></a>
                     </div>
                     </div>
                     <div class= "col-7 col-md-7 info-small image-text-small pl-0 pt-0">
@@ -388,7 +383,7 @@
                 <div class= "row us-row pb-2 mt-3">
                     <div class="col-5 col-md-5  us-text-small">
                       <div class= "image-small">
-                      <a href="#"><img class="img-left" src="images/donald-trump-2020-campaign-dinner-contests.jpg " alt= "jinping-donaldtrump"/></a>
+                      <a href="#"><img class="img-left img-fluid" src="images/donald-trump-2020-campaign-dinner-contests.jpg " alt= "jinping-donaldtrump"/></a>
                     </div>
                     </div>
                     <div class= "col-7 col-md-7 info-small image-text-small pl-0 pt-0">
@@ -400,7 +395,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-5  us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/cartels-use-presses-impart-prescription-designs.jpg " alt= "drugs"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/cartels-use-presses-impart-prescription-designs.jpg " alt= "drugs"/></a>
                   </div>
                   </div>
                   <div class= "col-7 col-md-7 info-small image-text-small pl-0 pt-0">
@@ -412,7 +407,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-5  us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/trump-jr-claims-know-whistleblowers-name.jpg" alt= "trump-jr"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/trump-jr-claims-know-whistleblowers-name.jpg" alt= "trump-jr"/></a>
                   </div>
                   </div>
                   <div class= "col-7 col-md-7 info-small image-text-small pl-0 pt-0">
@@ -424,7 +419,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-5  us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/kellyanne-conway-never-trumpers.jpg" alt= "kellyanne-conway"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/kellyanne-conway-never-trumpers.jpg" alt= "kellyanne-conway"/></a>
                   </div>
                   </div>
                   <div class= "col-7 col-md-7 info-small image-text-small pl-0 pt-0">
@@ -436,7 +431,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-5  us-text-small">
                     <div class= "image-small">
-                   <a href="#"><img class="img-left"  src="images/lindsey-graham.jpg" alt= "lindsey-graham"/></a>
+                   <a href="#"><img class="img-left img-fluid"  src="images/lindsey-graham.jpg" alt= "lindsey-graham"/></a>
                     </div>
                   </div>
                   <div class= "col-7 col-md-7 info-small image-text-small pl-0 pt-0">
@@ -448,7 +443,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-5  us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left"  src="images/close-camps.jpg" alt= "close-camps"/></a>
+                    <a href="#"><img class="img-left img-fluid"  src="images/close-camps.jpg" alt= "close-camps"/></a>
                     </div>
                   </div>
                   <div class= "col-7 col-md-7 info-small image-text-small pl-0 pt-0">
@@ -479,7 +474,6 @@
           </div>
         </div>
       </div>
-    
       <div class= "second-section">
         <div class= "main-content">
           <div class="row">
@@ -487,7 +481,7 @@
             <div class= "col md-3 col-lg-3 order-md-1 align-self-center">
               <div class="big-cover wrapping-text-image">
                 <a href="#">
-                <img class="img-top" src="images/november-08-15-2019.jpg" alt="date">
+                <img class="img-top img-fluid" src="images/november-08-15-2019.jpg" alt="date">
                 <p class="category cover-issues mb-0 ml-0 pl-1 pr-3 pt-2 pb-2">NOVEMBER 15 ISSUE</p>  
                 </a>
               </div>
@@ -504,7 +498,7 @@
                       <img src="https://g.newsweek.com/www/images/logo-n1.svg" style= "background-color: #f72210; width: 28px;" alt="Mary Anne" class="mr-0 mt-0" >
                     </div>
                     <div class= "logo-and-title pl-2">
-                        <span class= "card-text mt-2">IN THE MAGAZINE</span> 
+                      <span class= "card-text mt-2">IN THE MAGAZINE</span> 
                     </div>
                   </div>
                 </div>
@@ -514,13 +508,13 @@
                       <div class= "wrapping-text-image">
                         <div>
                         <a href="#">
-                          <img class="img-top"  src="images/fe-yang-06-1143955057-banner.jpg" alt="Fe-yang"></a>
+                          <img class="img-top in-the-pic img-fluid in-the-pic"  src="images/fe-yang-06-1143955057-banner.jpg" alt="Fe-yang">
+                        </a>
                         </div>
                         <div class="text-and-link mt-3">
                           <span class="p-1">COVER</span>
                           <a href="#" class= "pl-2"><small>POLITICS</small></span></a>
                         </div>
-                        </a>
                       </div>
                       <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Andrew Yang: Math, Jobs and the Robot Future</h4></a>
                     </article>
@@ -530,13 +524,13 @@
                       <div class= "wrapping-text-image">
                         <div>
                         <a href="#">
-                          <img class="img-top"   src="images/sytia.jpg" alt="Syria"></a>
+                          <img class="img-top img-fluid in-the-pic"   src="images/sytia.jpg" alt="Syria">
+                        </a>
                         </div>
                         <div class="text-and-link mt-3">
                           <span class="p-1">PERISCOPE</span>
                           <a href="#" class= "pl-2"><small>WORLD</small></span></a>
                         </div>
-                        </a>
                       </div>
                       <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Tug of War: Photographs Capture Horror of Turkey's Offensive Into Syria</h4></a>
                     </article>
@@ -546,14 +540,13 @@
                       <div class= "wrapping-text-image">
                         <div>
                         <a href="#">
-                          <img class="img-top" src="images/senator-sheldon-whitehouse.jpg" alt="Senator-sheldo">
+                          <img class="img-top img-fluid in-the-pic" src="images/senator-sheldon-whitehouse.jpg" alt="Senator-sheldo">
                         </a>
                         </div>
                         <div class="text-and-link mt-3">
                           <span class="p-1">PERISCOPE</span>
                           <a href="#" class= "pl-2"><small>POLITICS</small></span></a>
                         </div>
-                        </a>
                       </div>
                       <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">Sheldon Whitehouse On Impeachment, Court-Packing and "Getting to 67 Votes"</h4></a>
                     </article>
@@ -564,7 +557,6 @@
           </div>
         </div>
       </div>
-
       <div class= "third-section">
         <div class= "main-content">
           <div class="row">
@@ -573,7 +565,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top"src="images/bowie-banner.jpg" alt="David-bowie">
+                      <img class="img-top img-fluid in-the-pic"src="images/bowie-banner.jpg" alt="David-bowie">
                     </a>
                     </div>
                     <div class="text-and-link mt-3">
@@ -590,7 +582,7 @@
                 <div class= "wrapping-text-image">
                   <div>
                     <a href="#">
-                      <img class="img-top" src="images/sculpture.jpg" alt="sculpture">
+                      <img class="img-top img-fluid in-the-pic" src="images/sculpture.jpg" alt="sculpture">
                     </a>
                   </div>
                   <div class="text-and-link mt-3">
@@ -607,7 +599,7 @@
                 <div class= "wrapping-text-image">
                   <div>
                     <a href="#">
-                      <img class="img-top" src="images/mccreary.jpg" alt="MCcreary">
+                      <img class="img-top img-fluid in-the-pic" src="images/mccreary.jpg" alt="MCcreary">
                     </a>
                   </div>
                   <div class="text-and-link mt-3">
@@ -623,8 +615,8 @@
               <article>
                 <div class= "wrapping-text-image">
                   <a href="#">
-                    <img class="img-top" src="images/queens-speech.jpg" alt="Queen- Speech">
-                    <span class="p-1 text-and-link in-focus">IN FOCUS</span> 
+                    <img class="img-top img-fluid in-the-pic" src="images/queens-speech.jpg" alt="Queen- Speech">
+                    <span class="p-1 text-and-link in-focus ">IN FOCUS</span> 
                   </a>
                 </div>
                 <a href="#" class="title-article"><h4 class="mt-2 mb-3 text-magazine">THE QUEEN’S SPEECH</h4></a>
@@ -659,7 +651,7 @@
                         <div class= "wrapping-text-image">
                           <div>
                           <a href="#">
-                            <img class="img-top" src="images/donald-trump-2020-campaign-dinner-contests.jpg" alt="Donald-Trump"></a>
+                            <img class="img-top img-fluid" src="images/donald-trump-2020-campaign-dinner-contests.jpg" alt="Donald-Trump"></a>
                           </div>
                         </div>
                         <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-editor">Trump Campaign's Meal Contests 'Out-and-Out Fraud' if Nobody Wins: Lawyer</h4></a>
@@ -670,7 +662,7 @@
                     <article class="mt-3">
                       <div class= "wrapping-text-image">
                         <a href="#">
-                          <img class="img-top" src="images/amazon-rainforest-air-moisture.jpg" alt="Amazon Rainforest">
+                          <img class="img-top img-fluid" src="images/amazon-rainforest-air-moisture.jpg" alt="Amazon Rainforest">
                           <div class= "category">
                             <a href="">
                             <span>TECH & SCIENCE</span>  
@@ -686,7 +678,7 @@
                     <article class="mt-3">
                       <div class= "wrapping-text-image">
                         <a href="#">
-                          <img class="img-top" src="images/paris-migrant-tents.jpg" alt="paris-migrant-tents">
+                          <img class="img-top image-small img-fluid" src="images/paris-migrant-tents.jpg" alt="paris-migrant-tents">
                           <div class= "category">
                             <a href="">
                             <span>U.S.</span>  
@@ -702,7 +694,7 @@
                     <article class="mt-3">
                       <div class= "wrapping-text-image">
                         <a href="#">
-                          <img class="img-top" src="images/emmanuel-macron-xi-jinping-climate-change-paris.jpg" alt="Emanuel-Macron">
+                          <img class="img-top img-fluid" src="images/emmanuel-macron-xi-jinping-climate-change-paris.jpg" alt="Emanuel-Macron">
                           <div class= "category">
                             <a href="">
                             <span>NEWS</span>  
@@ -723,7 +715,7 @@
                     <article class="mt-3">
                       <div class= "wrapping-text-image">
                         <a href="#">
-                          <img class="img-top" src="images/cannabis-marijuana-weed-drugs-stock-getty.jpg" alt="Cannabis">
+                          <img class="img-top img-fluid" src="images/cannabis-marijuana-weed-drugs-stock-getty.jpg" alt="Cannabis">
                           <div class= "category">
                             <a href="">
                             <span>HEALTH</span>  
@@ -739,7 +731,7 @@
                     <article class="mt-3">
                       <div class= "wrapping-text-image">
                         <a href="#">
-                          <img class="img-top" src="images/rodney-reed.jpg" alt="Rodney-reed">
+                          <img class="img-top img-fluid" src="images/rodney-reed.jpg" alt="Rodney-reed">
                           <div class= "category">
                             <a href="">
                             <span>U.S.</span>  
@@ -755,7 +747,7 @@
                     <article class="mt-3">
                       <div class= "wrapping-text-image">
                         <a href="#">
-                          <img class="img-top" src="images/north-korea-united-nations-general-assembly.jpg" alt="North-Korea"rc="images/rodney-reed.jpg" alt="Rodney-reed">
+                          <img class="img-top img-fluid" src="images/north-korea-united-nations-general-assembly.jpg" alt="North-Korea"rc="images/rodney-reed.jpg" alt="Rodney-reed">
                           <div class= "category">
                             <a href="">
                             <span>WORLD</span>  
@@ -772,7 +764,7 @@
                       <div class= "wrapping-text-image">
                         <div>
                         <a href="#">
-                          <img class="img-top" src="images/sex-relationship-love-stock-bed-getty.jpg" alt="Clitoris"></a>
+                          <img class="img-top img-fluid" src="images/sex-relationship-love-stock-bed-getty.jpg" alt="Clitoris"></a>
                         </div>
                       </div>
                       <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-editor">Clitoris Isn't Just for Female Pleasure. It Also Helps With Reproduction</h4></a>
@@ -812,7 +804,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/sugar-plum-danish-starbucks.jpg" alt="Starbucks"></a>
+                      <img class="img-top img-fluid" src="images/sugar-plum-danish-starbucks.jpg" alt="Starbucks"></a>
                       <div class= "category featured-div ">
                         <a href="">
                         <span class= "featured-span">18 </span>  
@@ -828,7 +820,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/first-wives-club-pumpkin.jpg" alt="Pumpkins"></a>
+                      <img class="img-top img-fluid" src="images/first-wives-club-pumpkin.jpg" alt="Pumpkins"></a>
                       <div class= "category featured-div">
                         <a href="">
                         <span class= "featured-span">12 </span>  
@@ -844,7 +836,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/coldsplay.jpg" alt="Cosplay"></a>
+                      <img class="img-top img-fluid" src="images/coldsplay.jpg" alt="Cosplay"></a>
                       <div class= "category featured-div">
                         <a href="">
                         <span class= "featured-span">40 </span>  
@@ -862,7 +854,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/muir-pass-great-alone.jpg" alt="Great-Alone"></a>
+                      <img class="img-top img-fluid" src="images/muir-pass-great-alone.jpg" alt="Great-Alone"></a>
                       <div class= "category featured-div">
                         <a href="">
                         <span class= "featured-span">7 </span>  
@@ -878,7 +870,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/galapagos-cerro-brujo.jpg" alt="Galapagos"></a>
+                      <img class="img-top img-fluid" src="images/galapagos-cerro-brujo.jpg" alt="Galapagos"></a>
                       <div class= "category featured-div">
                         <a href="">
                         <span class= "featured-span"> 4 </span>  
@@ -894,7 +886,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/still-2-eop.jpg" alt="Trafficked-Animals"></a>
+                      <img class="img-top img-fluid" src="images/still-2-eop.jpg" alt="Trafficked-Animals"></a>
                       <div class= "category featured-div">
                         <a href="">
                         <span class= "featured-span"> 8 </span>  
@@ -931,7 +923,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/vaping.jpg" alt="Vaping"></a>
+                      <img class="img-top img-fluid" src="images/vaping.jpg" alt="Vaping"></a>
                     </div>
                   </div>
                   <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Youth Vaping Spiked in 2019 While Fed Plays Regulatory Catch Up: Report</h4></a>
@@ -941,7 +933,7 @@
                 <div class= "wrapping-text-image mt-3">
                   <div>
                   <a href="#">
-                    <img class="img-top" src="images/alligator.jpg" alt="Alligator"></a>
+                    <img class="img-top img-fluid" src="images/alligator.jpg" alt="Alligator"></a>
                   </div>
                   <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Decapitated Alligator Found in Florida for Second Time in a Month</h4></a>
                 </div>
@@ -950,7 +942,7 @@
                 <div class= "row us-row pb-2 mt-3">
                     <div class="col-5 col-md-8 col-lg-5 us-text-small">
                       <div class= "image-small">
-                      <a href="#"><img class="img-left" src="images/polk-county-sheriffs-office-arrests-17.jpg" alt= "polk-county-sheriffs-office-arrests-17"/></a>
+                      <a href="#"><img class="img-left img-fluid" src="images/polk-county-sheriffs-office-arrests-17.jpg" alt= "polk-county-sheriffs-office-arrests-17"/></a>
                     </div>
                     </div>
                     <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -962,7 +954,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-8 col-lg-5 us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/upland-california-plane-crash.jpg" alt= "upland-california-plane-crash"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/upland-california-plane-crash.jpg" alt= "upland-california-plane-crash"/></a>
                   </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -974,7 +966,7 @@
                 <div class= "row us-row number-republican pb-2 mt-3">
                   <div class="col-5 col-md-8 col-lg-5 us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/gettyimages-1133268773.jpg" alt= "Republicans"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/gettyimages-1133268773.jpg" alt= "Republicans"/></a>
                     </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0 ">
@@ -1010,7 +1002,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/jinping-donald-trump.jpg" alt="jinping-donald-trump"></a>
+                      <img class="img-top img-fluid" src="images/jinping-donald-trump.jpg" alt="jinping-donald-trump"></a>
                     </div>
                   </div>
                   <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Trump's Trade War With China Has 'Damaged Both Economies' Says Expert</h4></a>
@@ -1020,7 +1012,7 @@
                 <div class= "wrapping-text-image mt-3">
                   <div>
                   <a href="#">
-                    <img class="img-top" src="images/trump-trudeau.jpg" alt="trump-trudeau"></a>
+                    <img class="img-top img-fluid" src="images/trump-trudeau.jpg" alt="trump-trudeau"></a>
                   </div>
                   <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">U.S. Should Not Be Considered 'Safe Third Country' Canadian Court Hears</h4></a>
                 </div>
@@ -1029,7 +1021,7 @@
                 <div class= "row us-row pb-2 mt-3">
                     <div class="col-5 col-md-8 col-lg-5  us-text-small">
                       <div class= "image-small">
-                      <a href="#"><img class="img-left" src="images/turkey-drone-attack-northern-iraq-kurds.jpg" alt= "Turkey drone"/></a>
+                      <a href="#"><img class="img-left img-fluid" src="images/turkey-drone-attack-northern-iraq-kurds.jpg" alt= "Turkey drone"/></a>
                     </div>
                     </div>
                     <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1041,7 +1033,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-8 col-lg-5  us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/russia-supreme-court.jpg" alt= "russia-supreme-court"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/russia-supreme-court.jpg" alt= "russia-supreme-court"/></a>
                   </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1053,7 +1045,7 @@
                 <div class= "row us-row pb-2 mt-3 number-republican">
                   <div class="col-5 col-md-8 col-lg-5 us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/saudi-aramco-oil-installation.jpg" alt= "saudi-aramco-oil-installation"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/saudi-aramco-oil-installation.jpg" alt= "saudi-aramco-oil-installation"/></a>
                     </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1090,7 +1082,7 @@
                     <div class= "wrapping-text-image">
                       <div>
                       <a href="#">
-                        <img class="img-top" src="images/mcdonalds-restaurant.jpg" alt="mcdonalds-restaurant"></a>
+                        <img class="img-top img-fluid" src="images/mcdonalds-restaurant.jpg" alt="mcdonalds-restaurant"></a>
                       </div>
                     </div>
                     <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">McDonald's CEO Steps Down After Relationship With Employee</h4></a>
@@ -1100,7 +1092,7 @@
                   <div class= "wrapping-text-image mt-3">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/spotify.jpg" alt="spotify"></a>
+                      <img class="img-top img-fluid" src="images/spotify.jpg" alt="spotify"></a>
                     </div>
                     <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Now that labels can pay to promote music on Spotify, smaller artists.</h4></a>
                   </div>
@@ -1109,7 +1101,7 @@
                   <div class= "row us-row pb-2 mt-3">
                       <div class="col-5 col-md-8  col-lg-5 us-text-small">
                         <div class= "image-small">
-                        <a href="#"><img class="img-left" src="images/lawrence-summers-clinton-wealth-tax.jpg" alt= "lawrence-summers-clinton-wealth-tax"/></a>
+                        <a href="#"><img class="img-left img-fluid" src="images/lawrence-summers-clinton-wealth-tax.jpg" alt= "lawrence-summers-clinton-wealth-tax"/></a>
                       </div>
                       </div>
                       <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1121,7 +1113,7 @@
                   <div class= "row us-row pb-2 mt-3">
                     <div class="col-5 col-md-8 col-lg-5  us-text-small">
                       <div class= "image-small">
-                      <a href="#"><img class="img-left" src="images/us-deficit.jpg" alt= "us-deficit"/></a>
+                      <a href="#"><img class="img-left img-fluid" src="images/us-deficit.jpg" alt= "us-deficit"/></a>
                     </div>
                     </div>
                     <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1133,7 +1125,7 @@
                   <div class= "row us-row pb-2 mt-3 number-republican ">
                     <div class="col-5 col-md-8 col-lg-5 us-text-small">
                       <div class= "image-small">
-                      <a href="#"><img class="img-left" src="images/businesswoman.jpg" alt= "businesswoman"/></a>
+                      <a href="#"><img class="img-left img-fluid" src="images/businesswoman.jpg" alt= "businesswoman"/></a>
                       </div>
                     </div>
                     <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1169,7 +1161,7 @@
                 <div class= "wrapping-text-image">
                   <div>
                   <a href="#">
-                    <img class="img-top" src="images/raleigh-island-settlement.jpg" alt="raleigh-island-settlement"></a>
+                    <img class="img-top img-fluid" src="images/raleigh-island-settlement.jpg" alt="raleigh-island-settlement"></a>
                   </div>
                 </div>
                 <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Secrets of 'Special' Ancient Native American Settlement in Florida Revealed</h4></a>
@@ -1179,7 +1171,7 @@
               <div class= "wrapping-text-image mt-3">
                 <div>
                 <a href="#">
-                  <img class="img-top" src="images/sunflowers.jpg" alt="sunflowers"></a>
+                  <img class="img-top img-fluid" src="images/sunflowers.jpg" alt="sunflowers"></a>
                 </div>
                 <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Artificial Flowers That Bend Toward Light and Harvest Solar Energy Created</h4></a>
               </div>
@@ -1188,7 +1180,7 @@
               <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-8 col-lg-5  us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/pliosaur-plesiosaur.png" alt= "pliosaur-plesiosaur"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/pliosaur-plesiosaur.png" alt= "pliosaur-plesiosaur"/></a>
                   </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1200,7 +1192,7 @@
               <div class= "row us-row pb-2 mt-3">
                 <div class="col-5 col-md-8 col-lg-5 us-text-small">
                   <div class= "image-small">
-                  <a href="#"><img class="img-left"  src="images/mummified-cat.jpg" alt= "mummified-cat"/></a>
+                  <a href="#"><img class="img-left img-fluid"  src="images/mummified-cat.jpg" alt= "mummified-cat"/></a>
                 </div>
                 </div>
                 <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1212,7 +1204,7 @@
               <div class= "row us-row  number-republican  pb-2 mt-3">
                 <div class="col-5 col-md-8 col-lg-5  us-text-small">
                   <div class= "image-small">
-                  <a href="#"><img class="img-left" src="images/red-deer-calf-isle-rum-scotland.jpg" alt= "red-deer-calf-isle-rum-scotland"/></a>
+                  <a href="#"><img class="img-left img-fluid" src="images/red-deer-calf-isle-rum-scotland.jpg" alt= "red-deer-calf-isle-rum-scotland"/></a>
                   </div>
                 </div>
                 <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1248,7 +1240,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/katie-morton.jpg" alt="katie-morton"></a>
+                      <img class="img-top img-fluid" src="images/katie-morton.jpg" alt="katie-morton"></a>
                     </div>
                   </div>
                   <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Are Chris and Katie Still Engaged After 'Bachelor In Paradise?</h4></a>
@@ -1258,7 +1250,7 @@
                 <div class= "wrapping-text-image mt-3">
                   <div>
                   <a href="#">
-                    <img class="img-top" src="images/hailee-steinfield-dickinson-depicts-unapologetic-creative-freedom.png" alt="hailee-steinfield-dickinson-depicts-unapologetic-creative-freedom"></a>
+                    <img class="img-top img-fluid" src="images/hailee-steinfield-dickinson-depicts-unapologetic-creative-freedom.png" alt="hailee-steinfield-dickinson-depicts-unapologetic-creative-freedom"></a>
                   </div>
                   <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Hailee Steinfield in 'Dickinson' Depicts Unapologetic Creative Freedom</h4></a>
                 </div>
@@ -1267,7 +1259,7 @@
                 <div class= "row us-row pb-2 mt-3">
                     <div class="col-5 col-md-8 col-lg-5 us-text-small">
                       <div class= "image-small">
-                      <a href="#"><img class="img-left"  src="images/how-watch-logan-paul-ksi-fight.jpg" alt= "which-contestants-voice-are-going-live-playoffs"/></a>
+                      <a href="#"><img class="img-left img-fluid"  src="images/how-watch-logan-paul-ksi-fight.jpg" alt= "which-contestants-voice-are-going-live-playoffs"/></a>
                     </div>
                     </div>
                     <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1279,7 +1271,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-8 col-lg-5 us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left"  src="images/james-dean-rebel.jpg" alt= "james-dean-rebel"/></a>
+                    <a href="#"><img class="img-left img-fluid"  src="images/james-dean-rebel.jpg" alt= "james-dean-rebel"/></a>
                   </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1291,7 +1283,7 @@
                 <div class= "row us-row  number-republican  pb-2 mt-3">
                   <div class="col-5 col-md-8 col-lg-5 us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/end-f-ing-world-soundtrack.jpg" alt= "end-f-ing-world-soundtrack"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/end-f-ing-world-soundtrack.jpg" alt= "end-f-ing-world-soundtrack"/></a>
                     </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1327,7 +1319,7 @@
                   <div class= "wrapping-text-image">
                     <div>
                     <a href="#">
-                      <img class="img-top" src="images/wwe-shayna-baszler-nxt-bayley.jpg" alt="wwe-shayna-baszler-nxt-bayley"></a>
+                      <img class="img-top img-fluid" src="images/wwe-shayna-baszler-nxt-bayley.jpg" alt="wwe-shayna-baszler-nxt-bayley"></a>
                     </div>
                   </div>
                   <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Shayna Baszler Talks NXT Invasion and War Games</h4></a>
@@ -1337,7 +1329,7 @@
                 <div class= "wrapping-text-image mt-3">
                   <div>
                   <a href="#">
-                    <img class="img-top" src="images/clemson-tigers.jpg" alt="clemson-tigers"></a>
+                    <img class="img-top img-fluid" src="images/clemson-tigers.jpg" alt="clemson-tigers"></a>
                   </div>
                   <a href="#" class="title-article"><h4 class="mt-2 mb-2 text-us">Sportsbooks Continue to Favor Clemson Despite No. 5 CFP Ranking</h4></a>
                 </div>
@@ -1346,7 +1338,7 @@
                 <div class= "row us-row pb-2 mt-3">
                     <div class="col-5 col-md-8 col-lg-5  us-text-small">
                       <div class= "image-small">
-                      <a href="#"><img class="img-left"  src="images/juventus.jpg" alt= "juventus"/></a>
+                      <a href="#"><img class="img-left img-fluid"  src="images/juventus.jpg" alt= "juventus"/></a>
                     </div>
                     </div>
                     <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1358,7 +1350,7 @@
                 <div class= "row us-row pb-2 mt-3">
                   <div class="col-5 col-md-8 col-lg-5 us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left eden-hazard"  src="images/joe-burrow.jpg" alt= "eden-hazard-real-madrid"/></a>
+                    <a href="#"><img class="img-left  img-fluid eden-hazard"  src="images/joe-burrow.jpg" alt= "eden-hazard-real-madrid"/></a>
                   </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1370,7 +1362,7 @@
                 <div class= "row us-row  number-republican  pb-2 mt-3">
                   <div class="col-5 col-md-8 col-lg-5 us-text-small">
                     <div class= "image-small">
-                    <a href="#"><img class="img-left" src="images/ohio-state-football.jpg" alt= "ohio-state-football"/></a>
+                    <a href="#"><img class="img-left img-fluid" src="images/ohio-state-football.jpg" alt= "ohio-state-football"/></a>
                     </div>
                   </div>
                   <div class= "col-7 col-md-4 col-lg-7 info-small image-text-small pl-0 pt-0">
@@ -1402,7 +1394,7 @@
                       <div class="body-subscribe d-flex align-items-center">
                         <div class= "row pt-4 pb-4">
                           <div class="col-md-6 col-12 container two-images position-relative text-center"> 
-                              <img class= "first-image position-relative" src="images/november-01-2019-cover.jpg" style="width:170px;" alt="november-08-15-2019-cover" class="mr-0 mt-0" ></a>
+                              <img class= "first-image img-fluid position-relative" src="images/november-01-2019-cover.jpg" style="width:170px;" alt="november-08-15-2019-cover" class="mr-0 mt-0" ></a>
                               <img  class= "second-image position-relative" src="images/november-08-15-2019 (1).jpg" style="width:170px;" alt="november-08-15-2019" class="mr-0 mt-0" ></a>
                         
                           </div>
