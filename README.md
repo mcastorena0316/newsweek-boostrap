@@ -13,7 +13,7 @@
 
 URL to the live version of our project: [NEWSWEEK-BOOTSTRAP](https://rawcdn.githack.com/mcastorena0316/newsweek-boostrap/2f9e4fc0040d3f49b8a57609ced9c5a5351091d1/index.html)
 
-This a page clone from the Newspaper Magazine main page. The page we use for reference is [Newsweek](https://www.newsweek.com/)
+This a page clone from the Newspaper Magazine main page. The page use for reference is [Newsweek](https://www.newsweek.com/)
 
 ### Built With
 
@@ -37,7 +37,7 @@ Contributions are what make the open source community such an amazing place to b
 Melissa Castorena - mcastorena0316@gmail.com
 
 
-Project Link: [HTML Forms](https://github.com/mcastorena0316/newsweek-boostrap/tree/developer-branch)
+Project Link: [NEWSWEEK-BOOTSTRAP](https://github.com/mcastorena0316/newsweek-boostrap/tree/developer-branch)
 
 
 
