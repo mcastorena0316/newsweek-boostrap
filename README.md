@@ -11,7 +11,7 @@
 ## About The Project
 
 
-URL to the live version of our project: [NEWSWEEK-BOOTSTRAP](https://raw.githack.com/mcastorena0316/html-forms/feature-branch/index.html)
+URL to the live version of our project: [NEWSWEEK-BOOTSTRAP](https://rawcdn.githack.com/mcastorena0316/newsweek-boostrap/b36e3b9dcc4bd8d189b1d18841ad540a0e7aa637/index.html)
 
 This a page clone from the Newspaper Magazine main page. The page we use for reference is [Newsweek](https://www.newsweek.com/)
 

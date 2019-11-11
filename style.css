@@ -3,7 +3,7 @@ header {
 }
 
 .header-top {
-  max-width: 1310px;
+  max-width: 100%;
 }
 
 .header-bottom {
@@ -814,7 +814,7 @@ header {
   .header-bottom::before {
     position: absolute;
     top: 0;
-    right: 7px;
+    right: 0;
     content: "";
     display: block;
     background-color: #f72210;
