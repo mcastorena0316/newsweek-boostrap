@@ -312,7 +312,6 @@ header {
   border: none;
 }
 /* SIGN UP */
-
 .sign-up {
   background-color: #f4f5f6;
 }
@@ -361,7 +360,6 @@ header {
 }
 
 /* BIG COVER PHOTO */
-
 .big-cover {
   position: relative;
   width: 100%;
@@ -450,7 +448,6 @@ header {
 }
 
 /* FEATURED-SLIDESHOW */
-
 .featured-title {
   position: relative;
 }
@@ -520,7 +517,6 @@ header {
 }
 
 /* SUBSCRIBE */
-
 .subscribe-div {
   border-top: 1px solid #d9d9d9;
 }
@@ -896,8 +892,6 @@ header {
     height: 54px;
   }
 
-
-
   .footer-sections {
     display: flex;
     flex-wrap: wrap;
@@ -933,3 +927,4 @@ header {
     object-fit: cover;
   }
 }
+
