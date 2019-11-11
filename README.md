@@ -13,12 +13,12 @@
 
 URL to the live version of our project: [NEWSWEEK-BOOTSTRAP](https://raw.githack.com/mcastorena0316/html-forms/feature-branch/index.html)
 
-This a form rebuild from the Nespaper Magazine main page. The page we use for reference is [Newsweek](https://www.newsweek.com/)
+This a page clone from the Newspaper Magazine main page. The page we use for reference is [Newsweek](https://www.newsweek.com/)
 
 ### Built With
 
-* [HTML](https://github.com/mcastorena0316/html-forms/blob/feature-branch/index.html)
-* [CSS](https://github.com/mcastorena0316/html-forms/blob/feature-branch/style.css)
+* [HTML](https://github.com/mcastorena0316/newsweek-boostrap/blob/developer-branch/index.html)
+* [CSS](https://github.com/mcastorena0316/newsweek-boostrap/blob/developer-branch/style.css)
 
 ## Contributing
 
@@ -36,9 +36,8 @@ Contributions are what make the open source community such an amazing place to b
 
 Melissa Castorena - mcastorena0316@gmail.com
 
-Ermin Cahtarevic - erminc@windowslive.com
 
-Project Link: [HTML Forms](https://github.com/mcastorena0316/html-forms/tree/feature-branch)
+Project Link: [HTML Forms](https://github.com/mcastorena0316/newsweek-boostrap/tree/developer-branch)
 
 
 
@@ -46,7 +45,7 @@ Project Link: [HTML Forms](https://github.com/mcastorena0316/html-forms/tree/fea
 ## Acknowledgements
 
 * [Microverse](https://www.microverse.org/)
-* [Intuit](https://www.intuit.com/)
+* [Newsweek](https://www.newsweek.com//)
 
 
 
