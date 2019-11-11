@@ -222,7 +222,6 @@ header {
 }
 
 /* MORE STORIES */
-
 .more-stories {
   padding-top: 0;
 }
@@ -236,7 +235,6 @@ header {
 }
 
 /* CULTURE AND TRAVEL */
-
 .culture-title {
   background-color: #f4f5f7;
   color: rgba(3, 3, 3, 0.5);
@@ -265,7 +263,6 @@ header {
 }
 
 /* OPINION */
-
 .media-body p {
   line-height: 21px;
   color: #555;
@@ -274,9 +271,7 @@ header {
 }
 
 /* LATEST NEWS */
-
 .image-text-small {
-  /* padding-top: 14px; */
   padding-bottom: 10px;
 }
 
@@ -311,6 +306,7 @@ header {
   padding: 0;
   border: none;
 }
+
 /* SIGN UP */
 .sign-up {
   background-color: #f4f5f6;
