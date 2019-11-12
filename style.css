@@ -2,6 +2,12 @@ header {
   height: 40px;
 }
 
+.container {
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .header-top {
  width: 100%;
 }
@@ -18,6 +24,7 @@ header {
 .nav-date {
   display: none;
 }
+
 
 .nav-sub-singin {
   font-size: 16px;
@@ -62,16 +69,15 @@ header {
   line-height: 18px;
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
-
   margin: auto;
-  padding: 20px 20px 0 20px;
+  padding-top: 20px;;
 }
 
 
 .row {
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0;
+  margin-left: 0;
   width: 100%
 }
 
@@ -244,6 +250,11 @@ header {
   font-size: 16px;
 }
 
+.culture-and-travel-div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .small-title-article {
   color: #333;
   font-size: 20px;
@@ -289,6 +300,12 @@ header {
   clear: right;
 }
 
+.col-md-6, 
+.col-lg-12, {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .us-row {
   border-bottom: 1px solid #ddd;
 }
@@ -297,7 +314,6 @@ header {
   position: relative;
   width: 100%;
   vertical-align: middle;
-  padding-left: 15px;
 }
 
 .image-text-small a:hover {
@@ -348,6 +364,8 @@ header {
   font-size: 15px;
 }
 
+
+
 .update {
   color: #333;
   font-size: 15px;
@@ -361,8 +379,6 @@ header {
 .big-cover {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .see-all-features {
@@ -371,7 +387,6 @@ header {
   text-align: center;
   font-size: 18px;
   text-transform: uppercase;
-  margin: 0 15px;
 }
 
 .see-all-features a:hover {
@@ -538,6 +553,11 @@ header {
   left: 55px;
 }
 
+.in-the-magazine-div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .second-image {
   top: 15px;
   width: 170px;
@@ -625,7 +645,7 @@ header {
 .footer-sections {
   list-style: none;
   margin-left: 0;
-  padding-left: 25px;
+  padding-left: 0;
 }
 
 .footer-sections li {
@@ -646,12 +666,13 @@ header {
 }
 
 .editions-font {
-  padding-left: 22px;
+  padding-left: 0px;
   font-size: 14px;
   line-height: 15px;
   color: #666;
   font-weight: bold;
-  padding-top: px;
+  padding-right: 2px;
+  padding-top: 4px;
 }
 
 .countries-list li {
@@ -661,6 +682,15 @@ header {
 @media only screen and (min-width: 768px) {
   .text-magazine {
     font-size: 20px;
+  }
+
+  .in-the-pic {
+    object-fit: cover;
+  }
+
+  .in-the-magazine-div {
+    padding-left: 0;
+    padding-right: 15px;
   }
 
   .img-small {
@@ -770,6 +800,13 @@ header {
   .number-republican {
     border-bottom: none;
   }
+
+  
+  .culture-and-travel-div {
+  
+    padding-right: 15px;
+  }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -921,6 +958,11 @@ header {
     padding-right: 50px;
   }
 
+  .top-stories-title {
+    margin-right: 15px;
+    padding-right: 0px;
+  }
+
   .logo-copyright p {
     padding-top: 20px;
   }
@@ -929,5 +971,6 @@ header {
     min-height: 250px;
     object-fit: cover;
   }
+
 }
 
