@@ -3,7 +3,7 @@ header {
 }
 
 .header-top {
-  max-width: 100%;
+ width: 100%;
 }
 
 .header-bottom {
@@ -11,7 +11,7 @@ header {
 }
 
 .nav-date-login {
-  max-width: 1310px;
+  width: 100%;
   justify-content: flex-end;
 }
 
@@ -62,15 +62,17 @@ header {
   line-height: 18px;
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  max-width: 1310px;
+
   margin: auto;
   padding: 20px 20px 0 20px;
 }
+
 
 .row {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  width: 100%
 }
 
 .text-and-link span,
@@ -592,6 +594,11 @@ header {
 }
 
 /* FOOTER  */
+
+.footer-row{
+  width: 100%;
+}
+
 .footer-top {
   border-top: 2px solid #f4f5f6;
   background-color: white;
