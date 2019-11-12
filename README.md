@@ -11,7 +11,7 @@
 ## About The Project
 
 
-URL to the live version of my project: [NEWSWEEK-BOOTSTRAP](https://rawcdn.githack.com/mcastorena0316/newsweek-boostrap/tree/developer-branch)
+URL to the live version of my project: [NEWSWEEK-BOOTSTRAP](https://rawcdn.githack.com/mcastorena0316/newsweek-boostrap/0c1b547483df7d2a925b3c2fe114cad915fae4a0/index.html)
 
 This a page clone from the Newspaper Magazine main page. The page use for reference is [Newsweek](https://www.newsweek.com/)
 
