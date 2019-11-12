@@ -298,8 +298,8 @@ header {
   clear: right;
 }
 
-.col-md-6,
-.col-lg-12 {
+.col-lg-12,
+.editors-pick-div {
   padding-left: 0;
   padding-right: 0;
 }
@@ -526,6 +526,11 @@ header {
 }
 
 /* SUBSCRIBE */
+
+.main-content-subscribe {
+  padding-left: 15px;
+}
+
 .subscribe-div {
   border-top: 1px solid #d9d9d9;
 }
@@ -679,6 +684,10 @@ header {
     font-size: 20px;
   }
 
+  .editors-pick-div {
+    padding-right: 25px;
+  }
+
   .in-the-pic {
     object-fit: cover;
   }
@@ -746,6 +755,10 @@ header {
     padding-left: 0;
     padding-right: 0;
     padding-top: 90px;
+  }
+
+  .subscribe-img-section {
+    padding-right: 20px;
   }
 
   .see-all-features {
