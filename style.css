@@ -25,7 +25,6 @@ header {
   display: none;
 }
 
-
 .nav-sub-singin {
   font-size: 16px;
   font-weight: 700;
@@ -70,9 +69,8 @@ header {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
   margin: auto;
-  padding-top: 20px;;
+  padding-top: 20px;
 }
-
 
 .row {
   flex-wrap: wrap;
@@ -801,12 +799,9 @@ header {
     border-bottom: none;
   }
 
-  
   .culture-and-travel-div {
-  
     padding-right: 15px;
   }
-
 }
 
 @media only screen and (min-width: 992px) {
