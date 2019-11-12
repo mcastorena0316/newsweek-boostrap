@@ -76,7 +76,7 @@ header {
   flex-wrap: wrap;
   margin-right: 0;
   margin-left: 0;
-  width: 100%
+  width: 100%;
 }
 
 .text-and-link span,
@@ -299,7 +299,7 @@ header {
 }
 
 .col-md-6, 
-.col-lg-12, {
+.col-lg-12 {
   padding-left: 0;
   padding-right: 0;
 }
@@ -612,7 +612,6 @@ header {
 }
 
 /* FOOTER  */
-
 .footer-row{
   width: 100%;
 }
