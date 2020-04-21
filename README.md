@@ -15,6 +15,8 @@ URL to the live version of my project: [NEWSWEEK-BOOTSTRAP](https://rawcdn.githa
 
 This a page clone from the Newspaper Magazine main page. The page use for reference is [Newsweek](https://www.newsweek.com/)
 
+<div align="center"><img src="images/newsweek.jpg"></div>
+
 ### Built With
 
 * [HTML](https://github.com/mcastorena0316/newsweek-boostrap/blob/developer-branch/index.html)
